@@ -1,2 +1,2 @@
 # kobe-oslo
-object-plasma interaction using supercomputers
+object-plasma interaction using supercomputers.
