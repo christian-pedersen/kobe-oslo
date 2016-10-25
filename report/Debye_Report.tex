@@ -1,0 +1,89 @@
+%%% This part is only that you can run the script alone, please do not change anything here! If you need a special package, add it under the item "extra packages". There is also not layout yet. So don't wonder if it looks bad ;) And it is still without references, I know  %%%
+
+\documentclass[captions=tableheading,twoside]{scrbook}
+%% KOMA setup
+\setkomafont{caption}{\small}
+\setkomafont{captionlabel}{\normalfont\bfseries}
+\addtokomafont{sectioning}{\rmfamily}
+\setcapindent{1em}
+
+%% Defines look of headers and footers
+\usepackage{scrpage2}
+	\pagestyle{scrheadings}
+	\cofoot[\thepage]{\thepage}
+	\cefoot[\thepage]{\thepage}
+	\rofoot[]{}
+	\lefoot[]{}
+	\setheadsepline{.4pt}
+
+%% Costum commands:
+	%Command for \agfauthor:
+	\newcommand{\agfauthor}[1]{%
+	\begin{center}by #1\end{center}}
+	\newenvironment{Abstract}{\begin{center}\textbf{Abstract}\end{center}%
+	\begin{quote}}{\end{quote}}
+
+	%Command for \vek :
+	\newcommand{\vek}[1]{\ensuremath{\boldsymbol{#1}}}
+
+%% Packages:
+\usepackage[utf8]{inputenc} % encoding of input
+\usepackage[british]{babel} % Language
+\usepackage{microtype}
+\usepackage{mathtools}  % loads amsmath
+	\mathtoolsset{showmanualtags}
+\usepackage{bm} % for \bm command --- bold math
+\usepackage{float}
+\usepackage[farskip=3pt,captionskip=2pt,margin=1em]{subfig}
+\usepackage{booktabs,fixltx2e,tabularx,array}
+\usepackage{graphicx,epstopdf}
+
+\usepackage{hyperref}          % creates clickable links of refs
+\hypersetup{colorlinks=true,
+linkcolor=red}
+
+%%% Please insert all extra packages you need here:
+%\usepackage{natbib}
+\usepackage{cite}
+\usepackage[round]{natbib}
+
+
+
+
+%%%%%%%%%% Start of Document %%%%%%%%%
+\begin{document}
+
+\chapter{Report}
+\agfauthor{Gullik Vetvik Killie and More}
+
+\begin{Abstract}
+\end{Abstract}
+
+\section{Introduction}
+\input{introduction}
+
+\section{Results}
+\input{results}
+
+\section{Discussion}
+\input{discussion}
+
+
+\section{Conclusions}
+\input{conclusion}
+
+
+\nocite{*}
+\bibliography{bib}
+\bibliographystyle{plainnat}
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% mode: auto-fill
+%%% mode: flyspell
+%%% eval: (ispell-change-dictionary "english")
+%%% TeX-master: "../AGF212_ReportSpring2013"
+%%% End:
