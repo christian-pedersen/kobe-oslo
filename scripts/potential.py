@@ -3,7 +3,7 @@ import numpy as np
 import pylab as plt
 
 
-phisp = h5py.File('../case4/phisp000-000.h5','r')
+phisp = h5py.File('../case1/results_1/phisp000-000.h5','r')
 phisp = phisp['/phisp0000']
 phisp = phisp[:,:,:]
 phisp = np.transpose(phisp,(2,1,0))
