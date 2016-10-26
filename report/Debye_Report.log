@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  26 OCT 2016 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  26 OCT 2016 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,22 +865,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (./Debye_Report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
-
-
-Package rerunfilecheck Warning: File `Debye_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Debye_Report.out':
-(rerunfilecheck)             Before: 2609301B5FE424D9119193C452CB4A00;328
-(rerunfilecheck)             After:  61AAA78BC040D975E70C7B4910A35C0C;380.
+Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
+(rerunfilecheck)             Checksum: 61AAA78BC040D975E70C7B4910A35C0C;380.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 12168 strings out of 493089
- 191919 string characters out of 6134842
+ 12169 strings out of 493089
+ 191932 string characters out of 6134842
  391220 words of memory out of 5000000
- 15424 multiletter control sequences out of 15000+600000
+ 15425 multiletter control sequences out of 15000+600000
  12327 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,10n,54p,306b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -891,10 +884,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Debye_Report.pdf (2 pages, 76857 bytes).
+Output written on Debye_Report.pdf (2 pages, 76901 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 12337 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 12345 words of extra memory for PDF output out of 14400 (max. 10000000)
 
