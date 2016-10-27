@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 13:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,18 +1085,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 File: images/picture_simulation1.png Graphic file (type png)
 
 <use images/picture_simulation1.png>
-Package pdftex.def Info: images/picture_simulation1.png used on input line 74.
+Package pdftex.def Info: images/picture_simulation1.png used on input line 86.
 (pdftex.def)             Requested size: 209.12778pt x 145.46501pt.
 
 <images/picture_simulation2-2.png, id=92, 628.59843pt x 440.39531pt>
 File: images/picture_simulation2-2.png Graphic file (type png)
 
 <use images/picture_simulation2-2.png>
-Package pdftex.def Info: images/picture_simulation2-2.png used on input line 75
+Package pdftex.def Info: images/picture_simulation2-2.png used on input line 87
 .
 (pdftex.def)             Requested size: 209.12778pt x 146.5136pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 74--76
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 86--88
 [][] [] 
  []
 
@@ -1186,18 +1186,18 @@ File: images/ion_density_x-y_case3.png Graphic file (type png)
 Package pdftex.def Info: images/ion_density_x-y_case3.png used on input line 12
 8.
 (pdftex.def)             Requested size: 125.47794pt x 103.08817pt.
-) (./discussion.tex) (./conclusion.tex)
+) (./discussion.tex) (./conclusion.tex
 [8 <./images/ion_density_case1.png> <./images/ion_density_x-z_case2.png> <./ima
-ges/ion_density_x-y_case3.png>]
+ges/ion_density_x-y_case3.png>]) [9] [10
+
+
+]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [9
-
-
-]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (./Debye_Report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
@@ -1210,13 +1210,13 @@ Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 17060 strings out of 493304
- 278576 string characters out of 6139871
- 788613 words of memory out of 5000000
+ 17064 strings out of 493304
+ 278606 string characters out of 6139871
+ 788618 words of memory out of 5000000
  20106 multiletter control sequences out of 15000+600000
- 18454 words of font info for 102 fonts, out of 8000000 for 9000
+ 18505 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,22n,59p,1557b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,59p,1557b,1606s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1230,10 +1230,10 @@ ts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Debye_Report.pdf (9 pages, 878774 bytes).
+Output written on Debye_Report.pdf (11 pages, 880461 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
  20146 words of extra memory for PDF output out of 20736 (max. 10000000)
 
