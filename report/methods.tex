@@ -3,3 +3,27 @@
 	\item Experimental set up
 	\item 
 \end{itemize}
+\subsection{Numerical methods}
+
+To solve the problem numerically we use the EMSES code
+
+\subsection{Test case setup}
+
+We wish to simulate the effects of Photon emmision in different test cases, and have thus set up the following
+6 cases:
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Case & Plasme flow & Photon emission  \\ \hline
+     1: & 41600 $\vec{e_x}$ m/s  & 0 \\ \hline
+     2: & -41600 $\vec{e_z}$ m/s & 0 \\ \hline
+     3: & -41600 $\vec{e_y}$ m/s & 0 \\ \hline
+     4: & 41600 $\vec{e_x}$ m/s & $-10^{-3} A/m^{3}$ $\vec{e_x}$\\ \hline
+     5: & -41600 $\vec{e_z}$ m/s & $-10^{-3} A/m^{3}$ $\vec{e_x}$\\ \hline
+     6: & -41600 $\vec{e_y}$ m/s & $-10^{-3} A/m^{3}$  $\vec{e_x}$\\
+    \hline
+    \end{tabular}
+\end{center}
+
+So test case 1-4, 2-5, and 3-6 are the ``same'' cases exept that we run the simulation with and without
+photon emission to compare the cases two and two. 

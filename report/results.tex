@@ -5,13 +5,11 @@
 \end{itemize}
 
 \subsection{Induced electric current}
-
 	%Redo this part if necessary
 	The plasma is flowing in in relation to the coordinate system in the simulations.
-	Due to this an induced electrical field, \(\varepsilon\), will appear. To analyze the potential we
-	want to correct for this potential field. The induced electrical field will
-	neutralize the Lorentz force. Combined with the electrostatic approximation
-	we can obtain the \(\varepsilon\)
+	Due to this an induced electrical field, \(\varepsilon\), will appear.
+	The induced electrical field will neutralize the Lorentz force.
+	Combined with the electrostatic approximation we can obtain the \(\varepsilon\)
 
 	\begin{equation}
 		\vec{\varepsilon} = \vec{v_D}\times \vec{B}
@@ -25,7 +23,7 @@
 		\phi = -\int \vec{v}_d\times\vec{B} \approx -\int \left( 41600 \text{m/s}\cdot 50E-6 \text{T} \right) dx
 	\end{equation}
 	\begin{equation}
-		\phi = 2.08 \text{x}
+		\phi = -2.08 \text{x} + C
 	\end{equation}
 
 \subsection{Photoemmision paths}
@@ -46,6 +44,7 @@
         \includegraphics[width = 0.3 \textwidth]{images/pot_case36.png}
         \caption{Potential of spacecraft and surroundings with P-E and without P-E. Figure on the left displays difference between case 1 and 4. Middle figure displays difference between case 2 and 5. Rightmost figure displays difference between case 3 and 6.}
     \end{figure}
+<<<<<<< HEAD
 
 
 \subsubsection{Case 1 vs case 4}
@@ -61,3 +60,16 @@ With the flow of emmited electrons in the negative x direction we would expect a
 
 A rather large drop in potential of 12$%$ on both probes. Potential rise of 26$%$ over the satelite.  
     
+=======
+    
+    
+    
+\subsection{Wake plots}
+    
+    \begin{figure}
+        \includegraphics[width = 0.3 \textwidth]{images/ion density case1}
+        \includegraphics[width = 0.3 \textwidth]{images/ion density x-z case2}
+	 \includegraphics[width = 0.3 \textwidth]{images/ion density x-y case3}
+        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
+    \end{figure}
+>>>>>>> 3b368f4c88efffdde9f90d1923ff1d456dc8f11c

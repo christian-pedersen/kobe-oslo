@@ -1,0 +1,357 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{allen_supersonic_2011}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=d47b7a08c8c6681990c49fc98889f656}{Allen}{A\bibinitperiod}{J.\bibnamedelimi E.}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f84e982f63671d8c0796642b89b700c4}{Nosenko}{N\bibinitperiod}{Vladimir\bibnamedelima Yu.}{V\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d937bcc6dc4a95336f97370a905bf7c2}{Shukla}{S\bibinitperiod}{Padma\bibnamedelima K.}{P\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfcb4cdd6ca74b98f236d49ebc779abc}{Thoma}{T\bibinitperiod}{Markus\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fedc6ec6f1edeb6d96c1ee1542d24b93}{Thomas}{T\bibinitperiod}{Hubertus\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=d47b7a08c8c6681990c49fc98889f656}{Allen}{A\bibinitperiod}{J.\bibnamedelimi E.}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f84e982f63671d8c0796642b89b700c4}{Nosenko}{N\bibinitperiod}{Vladimir\bibnamedelima Yu.}{V\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d937bcc6dc4a95336f97370a905bf7c2}{Shukla}{S\bibinitperiod}{Padma\bibnamedelima K.}{P\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfcb4cdd6ca74b98f236d49ebc779abc}{Thoma}{T\bibinitperiod}{Markus\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fedc6ec6f1edeb6d96c1ee1542d24b93}{Thomas}{T\bibinitperiod}{Hubertus\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c2efd5ee71adc1325a57ef91d2f648b6}
+      \strng{fullhash}{36345acb10853e6ad5776493e0caeeca}
+      \field{sortinit}{A}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Supersonic plasma flow past an obstacle}
+      \field{shorttitle}{Supersonic plasma flow past an obstacle}
+      \field{title}{Supersonic plasma flow past an obstacle: a gas dynamic model}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{year}{2011}
+      \field{pages}{156\bibrangedash 159}
+      \verb{doi}
+      \verb 10.1063/1.3659761
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.3659761
+      \endverb
+    \endentry
+    \entry{engwall_wake_2006}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=ad39d505e5b7037358d9ba09eea754c3}{Engwall}{E\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a0f565f9739a2b03dd2c7ce310cbcbb}{Eriksson}{E\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29c10dba5d673a617e9d3d4558fac32c}{Forest}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ad39d505e5b7037358d9ba09eea754c3}{Engwall}{E\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a0f565f9739a2b03dd2c7ce310cbcbb}{Eriksson}{E\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29c10dba5d673a617e9d3d4558fac32c}{Forest}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4076afea784c07a978ff58bee3155722}
+      \strng{fullhash}{1daf2a16d8207649fe95f467d2cb46ac}
+      \field{sortinit}{E}
+      \field{labelyear}{2006}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Wake formation behind positively charged spacecraft in flowing tenuous plasmas}
+      \field{abstract}{Spacecraft in tenuous plasmas become positively charged because of photoelectron emission. If the plasma is supersonically drifting with respect to the spacecraft, a wake forms behind it. When the kinetic energy of the positive ions in the plasma is not sufficient to overcome the electrostatic barrier of the spacecraft potential, they scatter on the potential structure from the spacecraft rather than get absorbed or scattered by the spacecraft body. For tenuous plasmas with Debye lengths much exceeding the spacecraft size, the potential structure extends far from the spacecraft, and consequently in this case the wake is of transverse dimensions much larger than the spacecraft. This enhanced wake formation process is demonstrated by theoretical analysis and computer simulations. Comparison to observations from the Cluster satellites shows good agreement.}
+      \field{issn}{1070-664X, 1089-7674}
+      \field{journaltitle}{Physics of Plasmas (1994-present)}
+      \field{month}{06}
+      \field{number}{6}
+      \field{title}{Wake formation behind positively charged spacecraft in flowing tenuous plasmas}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{13}
+      \field{year}{2006}
+      \field{pages}{062904}
+      \verb{doi}
+      \verb 10.1063/1.2199207
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/BDGT5S5J/1.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/journal/pop/13/6/10.1063/1.2199207
+      \endverb
+      \keyw{Electric fields,Plasma flows,Plasma temperature,Spacecraft wakes,Space vehicles}
+    \endentry
+    \entry{ergun_spacecraft_2010}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=555f54a8fd8b6c07d4a47ddf2e4e1875}{Ergun}{E\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de3763644fdc95b36246c8c10c8c3675}{Malaspina}{M\bibinitperiod}{D.\bibnamedelimi M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac6c1dbb03719e62354c654872b78858}{Bale}{B\bibinitperiod}{S.\bibnamedelimi D.}{S\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a07fb4d32d615be94b0eb1bae6ce56ce}{McFadden}{M\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=627b9b77ff4b6c67941367343ecb3b98}{Larson}{L\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d499c8b6ac000276acc4ccb189baed1b}{Mozer}{M\bibinitperiod}{F.\bibnamedelimi S.}{F\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7373d8cdf1b343a706b4407da12ce8bc}{Meyer-Vernet}{M\bibinithyphendelim V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=17063122f3d2cd726b387df10832112e}{Maksimovic}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fe46b9141aeff18bc2767bc008318d14}{Kellogg}{K\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c501286e24f9eec5e0d142d83d20ab2}{Wygant}{W\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=555f54a8fd8b6c07d4a47ddf2e4e1875}{Ergun}{E\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de3763644fdc95b36246c8c10c8c3675}{Malaspina}{M\bibinitperiod}{D.\bibnamedelimi M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac6c1dbb03719e62354c654872b78858}{Bale}{B\bibinitperiod}{S.\bibnamedelimi D.}{S\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a07fb4d32d615be94b0eb1bae6ce56ce}{McFadden}{M\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=627b9b77ff4b6c67941367343ecb3b98}{Larson}{L\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d499c8b6ac000276acc4ccb189baed1b}{Mozer}{M\bibinitperiod}{F.\bibnamedelimi S.}{F\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7373d8cdf1b343a706b4407da12ce8bc}{Meyer-Vernet}{M\bibinithyphendelim V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=17063122f3d2cd726b387df10832112e}{Maksimovic}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fe46b9141aeff18bc2767bc008318d14}{Kellogg}{K\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c501286e24f9eec5e0d142d83d20ab2}{Wygant}{W\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{160449c967c6c5fc25d45fedeb435e8e}
+      \strng{fullhash}{8ef9e880811ed7d6ab45ecb1abd41214}
+      \field{sortinit}{E}
+      \field{labelyear}{2010}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Spacecraft charging and ion wake formation in the near-{Sun} environment}
+      \field{abstract}{A three-dimensional, self-consistent code is employed to solve for the static potential structure surrounding a spacecraft in a high photoelectron environment. The numerical solutions show that, under certain conditions, a spacecraft can take on a negative potential in spite of strong photoelectron currents. The negative potential is due to an electrostatic barrier near the surface of the spacecraft that can reflect a large fraction of the photoelectron flux back to the spacecraft. This electrostatic barrier forms if (1) the photoelectron density at the surface of the spacecraft greatly exceeds the ambient plasma density, (2) the spacecraft size is significantly larger than local Debye length of the photoelectrons, and (3) the thermal electron energy is much larger than the characteristic energy of the escaping photoelectrons. All of these conditions are present near the Sun. The numerical solutions also show that the spacecraft’s negative potential can be amplified by an ion wake. The negative potential of the ion wake prevents secondary electrons from escaping the part of spacecraft in contact with the wake. These findings may be important for future spacecraft missions that go nearer to the Sun, such as Solar Orbiter and Solar Probe Plus.}
+      \field{issn}{1070-664X, 1089-7674}
+      \field{journaltitle}{Physics of Plasmas (1994-present)}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Spacecraft charging and ion wake formation in the near-{Sun} environment}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{17}
+      \field{year}{2010}
+      \field{pages}{072903}
+      \verb{doi}
+      \verb 10.1063/1.3457484
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/S6E272NE/1.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/journal/pop/17/7/10.1063/1.3457484
+      \endverb
+      \keyw{Electrostatics,Gold,Secondary emission,Solar wind,Space vehicles}
+    \endentry
+    \entry{miloch_wake_2010}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b4f7a1c402a5aa7e197f32133ff114d2}{Miloch}{M\bibinitperiod}{Wojciech\bibnamedelima J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b4f7a1c402a5aa7e197f32133ff114d2}{Miloch}{M\bibinitperiod}{Wojciech\bibnamedelima J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b4f7a1c402a5aa7e197f32133ff114d2}
+      \strng{fullhash}{b4f7a1c402a5aa7e197f32133ff114d2}
+      \field{sortinit}{M}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Wake effects and {Mach} cones behind objects}
+      \field{abstract}{The wake formation behind objects in flowing plasmas is studied for supersonic flow velocities by numerical simulations. The objects are charged self-consistently by plasma currents. The wake structures and Mach cones are studied for various system conditions in the context of wake interactions with other objects, such as dust grains. Additional photoemission currents can lead to a positive charge on the object and significantly modify the wake. The analysis is carried out in two and three dimensions with particle-in-cell numerical codes.}
+      \field{issn}{0741-3335}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{number}{12}
+      \field{title}{Wake effects and {Mach} cones behind objects}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{52}
+      \field{year}{2010}
+      \field{pages}{124004}
+      \verb{doi}
+      \verb 10.1088/0741-3335/52/12/124004
+      \endverb
+      \verb{file}
+      \verb IOP Full Text PDF:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/KTBS8E5F/Miloch - 2010 - Wake effects and Mach cones behind objects.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0741-3335/52/i=12/a=124004
+      \endverb
+    \endentry
+    \entry{miyake_plasma_2013}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=04ad73365cd0683413d58c0da3870817}{Miyake}{M\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b54fa0d048ec7557a010c39e0a9b633}{Cully}{C\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=681cbb8fd6dac04ffffaec5bd2fb7e87}{Usui}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b7ef7d0fe2f468b770dafc334b94890}{Nakashima}{N\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=04ad73365cd0683413d58c0da3870817}{Miyake}{M\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b54fa0d048ec7557a010c39e0a9b633}{Cully}{C\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=681cbb8fd6dac04ffffaec5bd2fb7e87}{Usui}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b7ef7d0fe2f468b770dafc334b94890}{Nakashima}{N\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9129b0a10635b13bd243c01a8c379743}
+      \strng{fullhash}{dc6ad39665d424103615c49567ee535a}
+      \field{sortinit}{M}
+      \field{labelyear}{2013}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Plasma particle simulations of wake formation behind a spacecraft with thin wire booms}
+      \field{abstract}{Double-probe electric field sensors installed on scientific spacecraft are often deployed using wire booms with radii much less than typical Debye lengths of magnetospheric plasmas (millimeters compared to tens of meters). However, in tenuous and cold-streaming plasmas seen in the polar cap and lobe regions, the wire booms, electrically grounded at the spacecraft, have a high positive potential due to photoelectron emission and can strongly scatter approaching ions. Consequently, an electrostatic wake formed behind the spacecraft is further enhanced by the presence of the wire booms. We reproduce this process for the case of the Cluster satellite by performing plasma particle-in-cell (PIC) simulations, which include the effects of both the spacecraft body and the wire booms in a simultaneous manner. The simulations reveal that the effective thickness of the booms for the Cluster Electric Field and Wave (EFW) instrument is magnified from its real diameter (2.2mm) to several meters, when the spacecraft potential is at tens of volts. Such booms enhance the wake electric field magnitude by a factor of 1.5–2 depending on the spacecraft potential and play a principal role in explaining the in situ Cluster EFW data showing sinusoidal spurious electric fields with about 10mV/m amplitude. The boom effects are quantified by comparing PIC simulations with and without wire booms and also by examining the wake formation for various spacecraft potentials.}
+      \field{issn}{2169-9402}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{Plasma particle simulations of wake formation behind a spacecraft with thin wire booms}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{118}
+      \field{year}{2013}
+      \field{pages}{5681\bibrangedash 5694}
+      \verb{doi}
+      \verb 10.1002/jgra.50543
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/3V47P627/Miyake et al. - 2013 - Plasma particle simulations of wake formation behi.pdf:application/pdf;Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/FX95SZ5J/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/jgra.50543/abstract
+      \endverb
+      \keyw{0644 Numerical methods,0654 Plasmas,2712 Electric fields,2794 Instruments and techniques,7855 Spacecraft sheaths,wakes,charging,double-probe technique,instruments and techniques,plasma simulation,spacecraft wakes and charging,spurious electric fields,wire boom instrument}
+    \endentry
+    \entry{nakashima_ohhelp:_2009}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=0392f5f7038a4460d46d412726aa4935}{Nakashima}{N\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14bba661d3d7189a9c4dfd7cca724ff1}{Miyake}{M\bibinitperiod}{Yohei}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b075714340c268ef8b9594e475a5a4e4}{Usui}{U\bibinitperiod}{Hideyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=79e999e2a91b26dfb3f4cdea8db58b42}{Omura}{O\bibinitperiod}{Yoshiharu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=0392f5f7038a4460d46d412726aa4935}{Nakashima}{N\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14bba661d3d7189a9c4dfd7cca724ff1}{Miyake}{M\bibinitperiod}{Yohei}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b075714340c268ef8b9594e475a5a4e4}{Usui}{U\bibinitperiod}{Hideyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=79e999e2a91b26dfb3f4cdea8db58b42}{Omura}{O\bibinitperiod}{Yoshiharu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{d2d6f29726df0b5307fd873ccde59d4b}
+      \strng{fullhash}{3d9005abae172a2921dacc8787780f78}
+      \field{sortinit}{N}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{OhHelp}}
+      \field{isbn}{978-1-60558-498-0}
+      \field{shorttitle}{{OhHelp}}
+      \field{title}{{OhHelp}: a scalable domain-decomposing dynamic load balancing for particle-in-cell simulations}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{year}{2009}
+      \field{pages}{90}
+      \verb{doi}
+      \verb 10.1145/1542275.1542293
+      \endverb
+      \verb{url}
+      \verb http://portal.acm.org/citation.cfm?doid=1542275.1542293
+      \endverb
+    \endentry
+    \entry{patacchini_spherical_2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=6ebf2e88d3f6e5611d766ea0214ccfdf}{Patacchini}{P\bibinitperiod}{Leonardo}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f99e8f6451378e0d91f5c99af263e56}{Hutchinson}{H\bibinitperiod}{Ian\bibnamedelima H.}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6ebf2e88d3f6e5611d766ea0214ccfdf}{Patacchini}{P\bibinitperiod}{Leonardo}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f99e8f6451378e0d91f5c99af263e56}{Hutchinson}{H\bibinitperiod}{Ian\bibnamedelima H.}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{73b0293ca1def97e6ff7e1cc2cff99d8}
+      \strng{fullhash}{73b0293ca1def97e6ff7e1cc2cff99d8}
+      \field{sortinit}{P}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Spherical conducting probes in finite {Debye} length plasmas and {E} × {B} fields}
+      \field{abstract}{The particle-in-cell code SCEPTIC3D (Patacchini and Hutchinson 2010 Plasma Phys. Control. Fusion [/0741-3335/52] 52 035005 ) is used to calculate the interaction of a transversely flowing magnetized plasma with a negatively charged spherical conductor, in the entire range of magnetization and Debye length. The results allow the first fully self-consistent analysis of probe operation where neither the ion Larmor radius nor the Debye length are approximated by zero or infinity. An important transition in plasma structure occurs when the Debye length exceeds the average ion Larmor radius, as the sphere starts to shield the convective electric field driving the flow. A remarkable result is that in those conditions, the ion current can significantly exceed the unmagnetized orbital motion limit. When both the Debye length and the Larmor radius are small compared with the probe dimensions, however, their ratio does not affect the collection pattern significantly, and Mach-probe calibration methods derived in the context of quasineutral strongly magnetized plasmas (Patacchini and Hutchinson 2009 Phys. Rev. E 80 036403) hold for Debye lengths and ion Larmor radii smaller than about 10\% of the probe radius.}
+      \field{issn}{0741-3335}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{number}{2}
+      \field{title}{Spherical conducting probes in finite {Debye} length plasmas and {E} × {B} fields}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{53}
+      \field{year}{2011}
+      \field{pages}{025005}
+      \verb{doi}
+      \verb 10.1088/0741-3335/53/2/025005
+      \endverb
+      \verb{file}
+      \verb IOP Full Text PDF:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/3FKSR8MG/Patacchini and Hutchinson - 2011 - Spherical conducting probes in finite Debye length.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0741-3335/53/i=2/a=025005
+      \endverb
+    \endentry
+    \entry{wang_ionospheric_1992}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b58c7e15b44065354205a0f26a03f989}{Hastings}{H\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b58c7e15b44065354205a0f26a03f989}{Hastings}{H\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{24545decc898696386d32fe0c42ca8b1}
+      \strng{fullhash}{24545decc898696386d32fe0c42ca8b1}
+      \field{sortinit}{W}
+      \field{labelyear}{1992}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Ionospheric plasma flow over large high‐voltage space platforms. {II}}
+      \field{abstract}{Theory and particle simulation results are presented for ionospheric plasma flow over large high‐voltage space platforms at a large angle of attack. Both the transient formation of the space‐charge wake and its steady‐state structure are studied. The wake‐side ion impact and current collection are obtained. It is found that the wake behind a high‐voltage plate is characterized by two ion‐rich sheaths embedded in a quasineutral background wake. The embedded sheath is formed by the ions passing through the sheath around the plate edge and serves as their trajectory path. Depending on the surface potential, the plate dimension, and the angle of attack, the embedded sheath may either extend downstream or curve back to form a ‘‘hook’’ structure. As a result, the plate’s wake‐side surface may receive a high, localized ion flux at the location the embedded sheath strikes.}
+      \field{issn}{0899-8221}
+      \field{journaltitle}{Physics of Fluids B: Plasma Physics (1989-1993)}
+      \field{month}{06}
+      \field{number}{6}
+      \field{shorttitle}{Ionospheric plasma flow over large high‐voltage space platforms. {II}}
+      \field{title}{Ionospheric plasma flow over large high‐voltage space platforms. {II}: {The} formation and structure of plasma wake}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{4}
+      \field{year}{1992}
+      \field{pages}{1615\bibrangedash 1629}
+      \verb{doi}
+      \verb 10.1063/1.860070
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/SK9CMSX3/1.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/journal/pofb/4/6/10.1063/1.860070
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
