@@ -1,3 +1,9 @@
+\begin{itemize}
+	\item Comparison of cases with P-E and without
+	\item Acc of charges at probes + $\phi$, diff flows and $\alpha$
+	\item $\phi$ num vs ana
+\end{itemize}
+
 \subsection{Induced electric current}
 
 	%Redo this part if necessary
@@ -22,24 +28,14 @@
 		\phi = 2.08 \text{x}
 	\end{equation}
 
-\subsection{Paths of the photoemmited electrons}
-	The electrons emmited from the spacecraft due to the photoelectric effect, have a kinetic
-	energy corresponding to a Maxwellian distribution with a temperature of \(T_{ph} =  3.8481\cdot 10^{4} \text{K}\).
-	Figure~\ref{fig:trajectories} illustrates the trajectories of the emmited electrons in simulation \(6\).
-	As the probes are situated \(10 \text{cm}\) to the sides of the spacecraft on the \(x-\)axis, the probes
-	may be hit by the photo-emmited electrons. In the following section, \ref{sec:acc_emmited}, we show the number of electrons hitting
-	the probes.
-
+\subsection{Photoemmision paths}
 
 	\begin{figure}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths_2}
-		\caption{The trajectories of the electrons emmited by the photoelectric effect in simulation \(6\). The possible
- 		paths of the photoemmited electrons coincide with the volume occupied by the langmuir probes. The photoemmited electrons are strongly affected by the magnetic
-		field \(\vec{B}\), and follows a gyrating path guided by \(\vec{B}\). The photoemmited electrons are in all the studied cases
-		emmited from the spacecraft in \(-x\) direction, and the paths are similar. The langmuir probes are situated \(10 \text{cm}\) to each side
-		of the spacecraft along the \(x-\)direction. (NOTE, should have axis labels, and domain length.)}
-		\label{fig:trajectories}
+		\caption{The trajectories of the electrons emmited by the photoelectric effect in simulation \(6\). It can be seen that some
+		of the trajectories coincide with the volume occupied by the langmuir probes. The electrons are strongly affected by the magnetic
+		field \(\vec{B}\), and follows a gyrating path.}
  	\end{figure}
 
 
@@ -49,4 +45,15 @@
         \includegraphics[width = 0.3 \textwidth]{images/pot_case25.png}
         \includegraphics[width = 0.3 \textwidth]{images/pot_case36.png}
         \caption{Potential of spacecraft and surroundings with P-E and without P-E. Figure on the left displays difference between case 1 and 4. Middle figure displays difference between case 2 and 5. Rightmost figure displays difference between case 3 and 6.}
+    \end{figure}
+    
+    
+    
+\subsection{Wake plots}
+    
+    \begin{figure}
+        \includegraphics[width = 0.3 \textwidth]{images/ion density case1}
+        \includegraphics[width = 0.3 \textwidth]{images/ion density x-z case2}
+	 \includegraphics[width = 0.3 \textwidth]{images/ion density x-y case3}
+        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
     \end{figure}
