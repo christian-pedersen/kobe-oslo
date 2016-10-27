@@ -16,7 +16,12 @@ induced_phi = emph*2.08*dx
 
 plt.figure()
 
-plt.plot(phisp[:,64,64])#-induced_phi)
-plt.plot(induced_phi, "-")
+plt.plot(phisp[:,64,64], label = "Measured Potential")#-induced_phi)
+plt.plot(induced_phi, "-.", label = "Potential due to induced current")
+plt.ylabel("Potential (V)")
+plt.xlabel("Length (cm)")
+plt.legend()
+
+plt.savefig("../report/images/emph.png")
 
 plt.show()

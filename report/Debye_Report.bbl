@@ -150,88 +150,6 @@
       \endverb
       \keyw{Electrostatics,Gold,Secondary emission,Solar wind,Space vehicles}
     \endentry
-    \entry{holmstrom_interaction_2012}{article}{}
-      \name{labelname}{4}{}{%
-        {{uniquename=0,hash=fdf8a634fe409939d6b7b649101032a1}{Holmström}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=269a88db0a72c660aeecba3c8509bca4}{Fatemi}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ea1a47946f76d34ffefff75cbcc67a7a}{Futaana}{F\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5fb322b1ed6b4307b7c014a6c8d23628}{Nilsson}{N\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=fdf8a634fe409939d6b7b649101032a1}{Holmström}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=269a88db0a72c660aeecba3c8509bca4}{Fatemi}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ea1a47946f76d34ffefff75cbcc67a7a}{Futaana}{F\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5fb322b1ed6b4307b7c014a6c8d23628}{Nilsson}{N\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{15b6c9f36196195321f078fb0e8c479d}
-      \strng{fullhash}{3c5442d8df3e4c87fe4c32c9251c4a5f}
-      \field{sortinit}{H}
-      \field{labelyear}{2012}
-      \field{labelmonth}{03}
-      \field{datelabelsource}{}
-      \field{labeltitle}{The interaction between the {Moon} and the solar wind}
-      \field{abstract}{We study the interaction between the Moon and the solar wind using a three-dimensional hybrid plasma solver. The proton fluxes and electromagnetical fields are presented for typical solar wind conditions with different magnetic field directions. We find two different wake structures for an interplanetary magnetic field that is perpendicular to the solar wind flow, and for one that is parallell to the flow. The wake for intermediate magnetic field directions will be a mix of these two extreme conditions. Several features are consistent with a fluid interaction, e.g., the presence of a rarefaction cone, and an increased magnetic field in the wake. There are however several kinetic features of the interaction. We find kinks in the magnetic field at the wake boundary. There are also density and magnetic field variations in the far wake, maybe from an ion beam instability related to the wake refill. The results are compared to observations by the WIND spacecraft during a wake crossing. The model magnetic field and ion velocities are in agreement with the measurements. The density and the electron temperature in the central wake are not as well captured by the model, probably from the lack of electron physics in the hybrid model.}
-      \field{issn}{1880-5981}
-      \field{journaltitle}{Earth, Planets and Space}
-      \field{month}{03}
-      \field{number}{2}
-      \field{title}{The interaction between the {Moon} and the solar wind}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2016}
-      \field{volume}{64}
-      \field{year}{2012}
-      \field{pages}{17}
-      \verb{doi}
-      \verb 10.5047/eps.2011.06.040
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/TB7UJ93R/Holmström et al. - 2012 - The interaction between the Moon and the solar win.pdf:application/pdf;Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/JVBEN4WZ/eps.2011.06.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/article/10.5047/eps.2011.06.040
-      \endverb
-    \endentry
-    \entry{melandso_polarized_1995}{article}{}
-      \name{labelname}{2}{}{%
-        {{uniquename=0,hash=a5e012ace431f41ae580445b01c53333}{Melandsø}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1cbadb1cbde6f12d14aed06c39b1cc1a}{Goree}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=a5e012ace431f41ae580445b01c53333}{Melandsø}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1cbadb1cbde6f12d14aed06c39b1cc1a}{Goree}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{36548c3ee348aadaa330cd1db5ce6dae}
-      \strng{fullhash}{36548c3ee348aadaa330cd1db5ce6dae}
-      \field{sortinit}{M}
-      \field{labelyear}{1995}
-      \field{labelmonth}{11}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Polarized supersonic plasma flow simulation for charged bodies such as dust particles and spacecraft}
-      \field{abstract}{When an object such as a dust particle or spacecraft is immersed in a plasma flowing at a supersonic speed, an asymmetric screening potential forms around that object. The asymmetry is especially pronounced on the downstream side, with an ion rarefaction in the wake followed by an ion focus region. This polarized screening potential helps explain recent laboratory results with dusty plasmas, where collective interparticle effects were shown to be asymmetric. Using an electrostatic fluid simulation with cold ions and Boltzmann electrons, we have simulated the flow around spherical and cylindrical bodies, with and without a negative potential bias. Here, the flow speed v0 is assumed to be supersonic (faster than ion acoustic) and mesothermal (vTi≪v0≪vTe). A numerical method is used, with a diffuse object that simulates the ion loss and space charge on an object’s surface. This works with one or many objects, of any shape. We present solutions for systems of one and two particles in a simulation box, with periodic boundary conditions that help reveal collective effects.}
-      \field{journaltitle}{Physical Review E}
-      \field{month}{11}
-      \field{number}{5}
-      \field{title}{Polarized supersonic plasma flow simulation for charged bodies such as dust particles and spacecraft}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2016}
-      \field{volume}{52}
-      \field{year}{1995}
-      \field{pages}{5312\bibrangedash 5326}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.52.5312
-      \endverb
-      \verb{file}
-      \verb APS Snapshot:/home/gullik/.zotero/zotero/ui33ctdv.default/zotero/storage/EVEQRMSZ/PhysRevE.52.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevE.52.5312
-      \endverb
-    \endentry
     \entry{miloch_wake_2010}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b4f7a1c402a5aa7e197f32133ff114d2}{Miloch}{M\bibinitperiod}{Wojciech\bibnamedelima J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
@@ -314,6 +232,46 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1002/jgra.50543/abstract
       \endverb
       \keyw{0644 Numerical methods,0654 Plasmas,2712 Electric fields,2794 Instruments and techniques,7855 Spacecraft sheaths,wakes,charging,double-probe technique,instruments and techniques,plasma simulation,spacecraft wakes and charging,spurious electric fields,wire boom instrument}
+    \endentry
+    \entry{nakashima_ohhelp:_2009}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=0392f5f7038a4460d46d412726aa4935}{Nakashima}{N\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14bba661d3d7189a9c4dfd7cca724ff1}{Miyake}{M\bibinitperiod}{Yohei}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b075714340c268ef8b9594e475a5a4e4}{Usui}{U\bibinitperiod}{Hideyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=79e999e2a91b26dfb3f4cdea8db58b42}{Omura}{O\bibinitperiod}{Yoshiharu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=0392f5f7038a4460d46d412726aa4935}{Nakashima}{N\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14bba661d3d7189a9c4dfd7cca724ff1}{Miyake}{M\bibinitperiod}{Yohei}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b075714340c268ef8b9594e475a5a4e4}{Usui}{U\bibinitperiod}{Hideyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=79e999e2a91b26dfb3f4cdea8db58b42}{Omura}{O\bibinitperiod}{Yoshiharu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{d2d6f29726df0b5307fd873ccde59d4b}
+      \strng{fullhash}{3d9005abae172a2921dacc8787780f78}
+      \field{sortinit}{N}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{OhHelp}}
+      \field{isbn}{978-1-60558-498-0}
+      \field{shorttitle}{{OhHelp}}
+      \field{title}{{OhHelp}: a scalable domain-decomposing dynamic load balancing for particle-in-cell simulations}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{year}{2009}
+      \field{pages}{90}
+      \verb{doi}
+      \verb 10.1145/1542275.1542293
+      \endverb
+      \verb{url}
+      \verb http://portal.acm.org/citation.cfm?doid=1542275.1542293
+      \endverb
     \endentry
     \entry{patacchini_spherical_2011}{article}{}
       \name{labelname}{2}{}{%
