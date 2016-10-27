@@ -33,6 +33,19 @@ Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for \(phi_d\), we
 
 The theory is based on thin-sheath approximation, so if SC size is much larger than Debye length of the photoelectron, we can use it.\\
 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+     & Without flow & With flow  \\ \hline
+     Without Photon emission & -0.893   & -0.792 \\ \hline
+     With Photon emission & -0.718 & -0.662 \\ 
+    \hline
+    \end{tabular}
+\end{center}
+
+From these calculations we can expect the potential over the spacecraft to rise
+in the cases where we have photon emission.
+
 \subsection{Test case setup}
 
 We wish to simulate the effects of Photon emmited electrons in different test cases, and have thus set up the following
@@ -40,7 +53,7 @@ We wish to simulate the effects of Photon emmited electrons in different test ca
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
-    Case & Plasme flow & Photon emission  \\ \hline
+    Case & Plasma flow & Photon emission  \\ \hline
      1: & 41600 $\vec{e_x}$ m/s  & 0 \\ \hline
      2: & -41600 $\vec{e_z}$ m/s & 0 \\ \hline
      3: & -41600 $\vec{e_y}$ m/s & 0 \\ \hline
