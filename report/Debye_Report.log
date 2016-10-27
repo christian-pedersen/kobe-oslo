@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 11:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,142 +1073,121 @@ Package microtype Info: Loading generic settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./theory.tex) (./methods.tex [2]
-<images/picture_simulation1.png, id=43, 494.59781pt x 344.03531pt>
+(./theory.tex) (./methods.tex
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+<images/picture_simulation1.png, id=96, 494.59781pt x 344.03531pt>
 File: images/picture_simulation1.png Graphic file (type png)
 
 <use images/picture_simulation1.png>
-Package pdftex.def Info: images/picture_simulation1.png used on input line 69.
+Package pdftex.def Info: images/picture_simulation1.png used on input line 74.
 (pdftex.def)             Requested size: 209.12778pt x 145.46501pt.
 
-<images/picture_simulation2-2.png, id=44, 628.59843pt x 440.39531pt>
+<images/picture_simulation2-2.png, id=97, 628.59843pt x 440.39531pt>
 File: images/picture_simulation2-2.png Graphic file (type png)
 
 <use images/picture_simulation2-2.png>
-Package pdftex.def Info: images/picture_simulation2-2.png used on input line 70
+Package pdftex.def Info: images/picture_simulation2-2.png used on input line 75
 .
 (pdftex.def)             Requested size: 209.12778pt x 146.5136pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 69--71
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 74--76
 [][] [] 
  []
 
-) (./results.tex [3 <./images/picture_simulation1.png> <./images/picture_simula
-tion2-2.png>] <images/emph.pdf, id=52, 578.16pt x 433.62pt>
+) (./results.tex [3] <images/emph.pdf, id=104, 578.16pt x 433.62pt>
 File: images/emph.pdf Graphic file (type pdf)
 
 <use images/emph.pdf>
 Package pdftex.def Info: images/emph.pdf used on input line 27.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
 
-
-LaTeX Warning: Reference `fig:emph' on page 4 undefined on input line 34.
-
-
-LaTeX Warning: Reference `fig:trajectories' on page 4 undefined on input line 4
-0.
-
-
-LaTeX Warning: Reference `sec:acc_emmited' on page 4 undefined on input line 42
-.
-
-<images/case6_jph_paths.png, id=53, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths.png, id=108, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths.png Graphic file (type png)
 
 <use images/case6_jph_paths.png>
 Package pdftex.def Info: images/case6_jph_paths.png used on input line 47.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/case6_jph_paths_2.png, id=54, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths_2.png, id=109, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths_2.png Graphic file (type png)
 
 <use images/case6_jph_paths_2.png>
 Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 48.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
-
-
-LaTeX Warning: Reference `tab:elec_current' on page 4 undefined on input line 5
-9.
-
-<images/caliculation_of_electron_current.png, id=55, 182.93344pt x 95.6072pt>
+ [4 <./images/picture_simulation1.png> <./images/picture_simulation2-2.png>] [5
+ <./images/emph.pdf> <./images/case6_jph_paths.png (PNG copy)> <./images/case6_
+jph_paths_2.png (PNG copy)>]
+<images/caliculation_of_electron_current.png, id=163, 182.93344pt x 95.6072pt>
 File: images/caliculation_of_electron_current.png Graphic file (type png)
 
 <use images/caliculation_of_electron_current.png>
 Package pdftex.def Info: images/caliculation_of_electron_current.png used on in
-put line 66.
+put line 67.
 (pdftex.def)             Requested size: 188.21371pt x 98.37146pt.
 
-<images/caliculation_of_PE_current.png, id=56, 201.75375pt x 54.9553pt>
+<images/caliculation_of_PE_current.png, id=164, 201.75375pt x 54.9553pt>
 File: images/caliculation_of_PE_current.png Graphic file (type png)
 
 <use images/caliculation_of_PE_current.png>
 Package pdftex.def Info: images/caliculation_of_PE_current.png used on input li
-ne 67.
+ne 68.
 (pdftex.def)             Requested size: 188.21371pt x 51.26721pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/pot_case14.png, id=57, 670.75594pt x 361.35pt>
+<images/pot_case14.png, id=165, 670.75594pt x 361.35pt>
 File: images/pot_case14.png Graphic file (type png)
 
 <use images/pot_case14.png>
-Package pdftex.def Info: images/pot_case14.png used on input line 79.
+Package pdftex.def Info: images/pot_case14.png used on input line 80.
 (pdftex.def)             Requested size: 125.47794pt x 67.59305pt.
- [4] [5 <./images/emph.pdf> <./images/case6_jph_paths.png (PNG copy)> <./images
-/case6_jph_paths_2.png (PNG copy)>]
-<images/pot_case25.png, id=114, 2034.60126pt x 1102.1175pt>
+
+<images/pot_case25.png, id=166, 2034.60126pt x 1102.1175pt>
 File: images/pot_case25.png Graphic file (type png)
 
 <use images/pot_case25.png>
-Package pdftex.def Info: images/pot_case25.png used on input line 97.
+Package pdftex.def Info: images/pot_case25.png used on input line 96.
 (pdftex.def)             Requested size: 209.12778pt x 113.27888pt.
 
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:pot_case25' on page 6 undefined on input line 103
-.
-
-
-LaTeX Warning: Reference `fig:wake' on page 6 undefined on input line 105.
-
-<images/pot_case36.png, id=115, 2034.60126pt x 1102.1175pt>
+ [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
+E_current.png> <./images/pot_case14.png>]
+<images/pot_case36.png, id=176, 2034.60126pt x 1102.1175pt>
 File: images/pot_case36.png Graphic file (type png)
 
 <use images/pot_case36.png>
-Package pdftex.def Info: images/pot_case36.png used on input line 111.
+Package pdftex.def Info: images/pot_case36.png used on input line 110.
 (pdftex.def)             Requested size: 209.12778pt x 113.27888pt.
 
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
-E_current.png> <./images/pot_case14.png>] [7 <./images/pot_case25.png (PNG copy
-)> <./images/pot_case36.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:wake' on page 8 undefined on input line 119.
-
-<images/ion_density_case1.png, id=132, 467.49657pt x 450.9347pt>
+<images/ion_density_case1.png, id=178, 467.49657pt x 450.9347pt>
 File: images/ion_density_case1.png Graphic file (type png)
 
 <use images/ion_density_case1.png>
-Package pdftex.def Info: images/ion_density_case1.png used on input line 122.
+Package pdftex.def Info: images/ion_density_case1.png used on input line 121.
 (pdftex.def)             Requested size: 125.47794pt x 121.03151pt.
 
-<images/ion_density_x-z_case2.png, id=133, 475.02469pt x 395.22656pt>
+<images/ion_density_x-z_case2.png, id=179, 475.02469pt x 395.22656pt>
 File: images/ion_density_x-z_case2.png Graphic file (type png)
 
 <use images/ion_density_x-z_case2.png>
 Package pdftex.def Info: images/ion_density_x-z_case2.png used on input line 12
-3.
+2.
 (pdftex.def)             Requested size: 125.47794pt x 104.39682pt.
 
-<images/ion_density_x-y_case3.png, id=134, 481.04718pt x 395.22656pt>
+<images/ion_density_x-y_case3.png, id=180, 481.04718pt x 395.22656pt>
 File: images/ion_density_x-y_case3.png Graphic file (type png)
 
 <use images/ion_density_x-y_case3.png>
 Package pdftex.def Info: images/ion_density_x-y_case3.png used on input line 12
-4.
+3.
 (pdftex.def)             Requested size: 125.47794pt x 103.08817pt.
 ) (./discussion.tex) (./conclusion.tex
+[7 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1231,39 +1210,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
  (./Debye_Report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
-
-
-Package rerunfilecheck Warning: File `Debye_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Debye_Report.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  4E512B1013B1ABB5D300A654AEA377C7;1004.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Debye_Report
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
+(rerunfilecheck)             Checksum: 8DF4B3D1469FA6EDBF283631D7325D4B;1064.
 Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 \openout1 = `Debye_Report.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 17063 strings out of 493304
- 278710 string characters out of 6139871
- 785163 words of memory out of 5000000
- 20102 multiletter control sequences out of 15000+600000
- 18697 words of font info for 102 fonts, out of 8000000 for 9000
+ 17092 strings out of 493304
+ 279060 string characters out of 6139871
+ 788288 words of memory out of 5000000
+ 20128 multiletter control sequences out of 15000+600000
+ 18799 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,22n,59p,1557b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,59p,1557b,1623s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1278,10 +1239,10 @@ msl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Debye_Report.pdf (9 pages, 883617 bytes).
+Output written on Debye_Report.pdf (9 pages, 888098 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 22082 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 22202 words of extra memory for PDF output out of 24883 (max. 10000000)
 

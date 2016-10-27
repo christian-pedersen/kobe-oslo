@@ -1,16 +1,11 @@
-\begin{itemize}
-	\item Short PiC (EMSES) explanation
-	\item Experimental set up
-	\item 
-\end{itemize}
 \subsection{Numerical methods}
 
 To solve the problem numerically we use the EMSES code. EMSES uses the standard PIC method for plasma simulations.
 In the code we are able to define a spacecraft body, and the code then calculates the potential on that body using the capacitance matrix method.
-Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the poisson's equation 
-solver for electrostatic problems. In the EMSES system we can define sunlit surfaces based upon an angle, and a current 
+Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the poisson's equation
+solver for electrostatic problems. In the EMSES system we can define sunlit surfaces based upon an angle, and a current
 desity. Sunlit surfaces will then emmit electrons based upon a energy distribution. For a complete description of EMSES' capabilities
-see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at the earth, but with an enhanced flux to emphasize the effect in question. 
+see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at the earth, but with an enhanced flux to emphasize the effect in question.
 
 \subsection{Theoretical calculations}
 
@@ -18,17 +13,40 @@ see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at
 \begin{split}
  I_i = &
     \left\{\begin{array}{ccc}
-       A|q|n_i\sqrt{\frac{8 k T_i}{\pi m_i}} (without flow)\\
-       \frac{1}{6}A |q|n_i V + \frac{5}{6} A |q| n_i \sqrt{\frac{8 k T_i}{\pi M_i}}(with flow)
+       A|q|n_\infty\sqrt{\frac{8 k T_i}{\pi m_i}} (without flow)\\
+       \frac{1}{6}A |q|n_\infty V + \frac{5}{6} A |q| n_\infty \sqrt{\frac{8 k T_i}{\pi M_i}}(with flow)
       \end{array}\right. \\
-  I_e = & -A|q|n_e \sqrt{\frac{8 k T_e}{\pi m_e}}exp\Big(\frac{|q|\Phi_d}{k T_e}\Big)\\
+  I_e = & -A|q|n_\infty \sqrt{\frac{8 k T_e}{\pi m_e}}exp\Big(\frac{|q|\Phi_d}{k T_e}\Big)\\
   I_{ph} = & \frac{1}{6} AJ_s
 \end{split}
-\label{thin sheet potential} 
+\label{thin sheet potential}
+\end{equation}
+Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for \phi_d\, we can get
+\begin{equation}
+\begin{split}
+ \Phi_d = & \frac{k T_e}{|q|}ln\Big(\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}}\Big) + \Phi_0 \\
+ \Phi_d = & \frac{k T_e}{|q|}ln\Big(\frac{5}{6}\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{V}{6}\sqrt{\frac{\pi m_e}{8 k T_e}} + \frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}} \Big)+\Phi_0 \\
+ \Phi_0 = & k T_{ph}, \ V = speed\ of\ flow
+\end{split}
+\label{thin sheet potential 2}
 \end{equation}
 
+The theory is based on thin-sheath approximation, so if SC size is much larger than Debye length of the photoelectron, we can use it.\\
 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+     & Without flow & With flow  \\ \hline
+     Without Photon emission & -0.893   & -0.792 \\ \hline
+     With Photon emission & -0.718 & -0.662 \\ 
+    \hline
+    \end{tabular}
+\end{center}
 
+There is a difference between the theoretical and numerical potential because $\lambda_D$ is not much
+smaller then the length of the satelite, which is an assumption in the thin sheeth approximation. 
+From these calculations we can, however, expect the potential over the spacecraft to rise
+in the cases where we have photon emission.
 
 \subsection{Test case setup}
 
@@ -37,7 +55,7 @@ We wish to simulate the effects of Photon emmited electrons in different test ca
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
-    Case & Plasme flow & Photon emission  \\ \hline
+    Case & Plasma flow & Photon emission  \\ \hline
      1: & 41600 $\vec{e_x}$ m/s  & 0 \\ \hline
      2: & -41600 $\vec{e_z}$ m/s & 0 \\ \hline
      3: & -41600 $\vec{e_y}$ m/s & 0 \\ \hline
@@ -49,10 +67,11 @@ We wish to simulate the effects of Photon emmited electrons in different test ca
 \end{center}
 
 So test case 1-4, 2-5, and 3-6 are the ``same'' cases exept that we run the simulation with and without
-photon emission to compare the cases two and two. 
+photon emission to compare the cases two and two. We define 3 geometric objects, the spacecraft itself
+and two probes. In all cases the $B$ field is in the $\vec e_z$ direction.
 
 \begin{figure}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation1.png}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation2-2.png}
-        \caption{a description here}
-    \end{figure}  
+        \caption{Reseach about spacecraft and surroundings without P-E and without.Left figure is no P-E simulation cases.Right figure is P-E simulation cases.}
+    \end{figure}
