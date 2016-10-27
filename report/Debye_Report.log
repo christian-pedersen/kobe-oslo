@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,20 +1212,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./Debye_Report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
+(rerunfilecheck)             Checksum: FE71C89822157F8FFFFA430E770909C3;994.
 
-
-Package rerunfilecheck Warning: File `Debye_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Debye_Report.out':
-(rerunfilecheck)             Before: E6A2E8DCA668212C615821D8B95AE54C;1001
-(rerunfilecheck)             After:  FE71C89822157F8FFFFA430E770909C3;994.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1238,11 +1229,11 @@ Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 17426 strings out of 493089
- 288759 string characters out of 6134842
- 844741 words of memory out of 5000000
- 20525 multiletter control sequences out of 15000+600000
- 17132 words of font info for 93 fonts, out of 8000000 for 9000
+ 17417 strings out of 493089
+ 288657 string characters out of 6134842
+ 844499 words of memory out of 5000000
+ 20514 multiletter control sequences out of 15000+600000
+ 17183 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,22n,54p,1157b,1573s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1256,7 +1247,7 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Debye_Report.pdf (8 pages, 841387 bytes).
+Output written on Debye_Report.pdf (8 pages, 841495 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
