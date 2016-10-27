@@ -1,0 +1,10 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'Debye_Report.blg'
+[36] biber-darwin:276> INFO - === Thu Oct 27, 2016, 13:58:07
+[36] Biber.pm:333> INFO - Reading 'Debye_Report.bcf'
+[113] Utils.pm:146> WARN - Warning: Found biblatex control file version 2.5, expected version 2.7
+[113] Biber.pm:642> INFO - Using all citekeys in bib section 0
+[124] Biber.pm:2977> INFO - Processing section 0
+[135] Biber.pm:3115> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[139] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[141] bibtex.pm:895> INFO - Found BibTeX data source 'bib.bib'

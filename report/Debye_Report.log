@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 06:31
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.2)  27 OCT 2016 06:45
+>>>>>>> 245896a83b6f7ac26169347cc6dce651c2db94d6
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,219 +736,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
+=======
+>>>>>>> 245896a83b6f7ac26169347cc6dce651c2db94d6
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex2.sty
-Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
-AB)
+! LaTeX Error: File `biblatex.sty' not found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count133
-)
-\etb@tempcnta=\count134
-)
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count135
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.61 \bibliography
+                  {bib}^^M
+*** (cannot \read from terminal in nonstop modes)
 
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count136
-\c@listtotal=\count137
-\c@listcount=\count138
-\c@liststart=\count139
-\c@liststop=\count140
-\c@citecount=\count141
-\c@citetotal=\count142
-\c@multicitecount=\count143
-\c@multicitetotal=\count144
-\c@instcount=\count145
-\c@maxnames=\count146
-\c@minnames=\count147
-\c@maxitems=\count148
-\c@minitems=\count149
-\c@citecounter=\count150
-\c@savedcitecounter=\count151
-\c@uniquelist=\count152
-\c@uniquename=\count153
-\c@refsection=\count154
-\c@refsegment=\count155
-\c@maxextratitle=\count156
-\c@maxextratitleyear=\count157
-\c@maxextrayear=\count158
-\c@maxextraalpha=\count159
-\c@abbrvpenalty=\count160
-\c@highnamepenalty=\count161
-\c@lownamepenalty=\count162
-\c@maxparens=\count163
-\c@parenlevel=\count164
-\blx@tempcnta=\count165
-\blx@tempcntb=\count166
-\blx@tempcntc=\count167
-\blx@maxsection=\count168
-\blx@maxsegment@0=\count169
-\blx@notetype=\count170
-\blx@parenlevel@text=\count171
-\blx@parenlevel@foot=\count172
-\blx@sectionciteorder@0=\count173
-\labelnumberwidth=\skip64
-\labelalphawidth=\skip65
-\shorthandwidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
-\blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count174
-\c@maxcomprange=\count175
-\c@mincompwidth=\count176
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count177
-\c@savedafterword=\count178
-\c@annotator=\count179
-\c@savedannotator=\count180
-\c@author=\count181
-\c@savedauthor=\count182
-\c@bookauthor=\count183
-\c@savedbookauthor=\count184
-\c@commentator=\count185
-\c@savedcommentator=\count186
-\c@editor=\count187
-\c@savededitor=\count188
-\c@editora=\count189
-\c@savededitora=\count190
-\c@editorb=\count191
-\c@savededitorb=\count192
-\c@editorc=\count193
-\c@savededitorc=\count194
-\c@foreword=\count195
-\c@savedforeword=\count196
-\c@holder=\count197
-\c@savedholder=\count198
-\c@introduction=\count199
-\c@savedintroduction=\count200
-\c@namea=\count201
-\c@savednamea=\count202
-\c@nameb=\count203
-\c@savednameb=\count204
-\c@namec=\count205
-\c@savednamec=\count206
-\c@shortauthor=\count207
-\c@savedshortauthor=\count208
-\c@shorteditor=\count209
-\c@savedshorteditor=\count210
-\c@translator=\count211
-\c@savedtranslator=\count212
-\c@labelname=\count213
-\c@savedlabelname=\count214
-\c@institution=\count215
-\c@savedinstitution=\count216
-\c@lista=\count217
-\c@savedlista=\count218
-\c@listb=\count219
-\c@savedlistb=\count220
-\c@listc=\count221
-\c@savedlistc=\count222
-\c@listd=\count223
-\c@savedlistd=\count224
-\c@liste=\count225
-\c@savedliste=\count226
-\c@listf=\count227
-\c@savedlistf=\count228
-\c@location=\count229
-\c@savedlocation=\count230
-\c@organization=\count231
-\c@savedorganization=\count232
-\c@origlocation=\count233
-Normal \count register pool exhausted, switching to extended pool.
-\c@savedoriglocation=\count277
-\c@origpublisher=\count278
-\c@savedorigpublisher=\count279
-\c@publisher=\count280
-\c@savedpublisher=\count281
-\c@language=\count282
-\c@savedlanguage=\count283
-\c@pageref=\count284
-\c@savedpageref=\count285
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 
-\c@textcitecount=\count286
-\c@textcitetotal=\count287
-\c@textcitemaxnames=\count288
-\c@biburlnumpenalty=\count289
-\c@biburlucpenalty=\count290
-\c@biburllcpenalty=\count291
-\c@smartand=\count292
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count293
-\c@bbx:relatedtotal=\count294
-))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)))
-Package biblatex Info: Trying to load language 'british'...
-Package biblatex Info: ... file 'british.lbx' found.
-
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/british.lbx
 File: british.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'english'...
@@ -1055,3 +866,15 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
 (scrbook)              has been replaced by more several more flexible
 (scrbook) 
+=======
+ 
+Here is how much of TeX's memory you used:
+ 11105 strings out of 494374
+ 175434 string characters out of 6164955
+ 379072 words of memory out of 5000000
+ 14310 multiletter control sequences out of 15000+600000
+ 3940 words of font info for 15 fonts, out of 8000000 for 9000
+ 350 hyphenation exceptions out of 8191
+ 54i,1n,66p,306b,94s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> 245896a83b6f7ac26169347cc6dce651c2db94d6

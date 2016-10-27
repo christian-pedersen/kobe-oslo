@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,43 +729,252 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
+B)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count133
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count134
 
-
-Package natbib Warning: The `cite' package should not be used
-(natbib)                with natbib. Use option `sort' instead.
-
-\bibhang=\skip64
-\bibsep=\skip65
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count133
+(/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
+\c@tabx@nest=\count135
+\c@listtotal=\count136
+\c@listcount=\count137
+\c@liststart=\count138
+\c@liststop=\count139
+\c@citecount=\count140
+\c@citetotal=\count141
+\c@multicitecount=\count142
+\c@multicitetotal=\count143
+\c@instcount=\count144
+\c@maxnames=\count145
+\c@minnames=\count146
+\c@maxitems=\count147
+\c@minitems=\count148
+\c@citecounter=\count149
+\c@savedcitecounter=\count150
+\c@uniquelist=\count151
+\c@uniquename=\count152
+\c@refsection=\count153
+\c@refsegment=\count154
+\c@maxextratitle=\count155
+\c@maxextratitleyear=\count156
+\c@maxextrayear=\count157
+\c@maxextraalpha=\count158
+\c@abbrvpenalty=\count159
+\c@highnamepenalty=\count160
+\c@lownamepenalty=\count161
+\c@maxparens=\count162
+\c@parenlevel=\count163
+\blx@tempcnta=\count164
+\blx@tempcntb=\count165
+\blx@tempcntc=\count166
+\blx@maxsection=\count167
+\blx@maxsegment@0=\count168
+\blx@notetype=\count169
+\blx@parenlevel@text=\count170
+\blx@parenlevel@foot=\count171
+\blx@sectionciteorder@0=\count172
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count173
+\c@maxcomprange=\count174
+\c@mincompwidth=\count175
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count176
+\c@savedafterword=\count177
+\c@annotator=\count178
+\c@savedannotator=\count179
+\c@author=\count180
+\c@savedauthor=\count181
+\c@bookauthor=\count182
+\c@savedbookauthor=\count183
+\c@commentator=\count184
+\c@savedcommentator=\count185
+\c@editor=\count186
+\c@savededitor=\count187
+\c@editora=\count188
+\c@savededitora=\count189
+\c@editorb=\count190
+\c@savededitorb=\count191
+\c@editorc=\count192
+\c@savededitorc=\count193
+\c@foreword=\count194
+\c@savedforeword=\count195
+\c@holder=\count196
+\c@savedholder=\count197
+\c@introduction=\count198
+\c@savedintroduction=\count199
+\c@namea=\count200
+\c@savednamea=\count201
+\c@nameb=\count202
+\c@savednameb=\count203
+\c@namec=\count204
+\c@savednamec=\count205
+\c@translator=\count206
+\c@savedtranslator=\count207
+\c@shortauthor=\count208
+\c@savedshortauthor=\count209
+\c@shorteditor=\count210
+\c@savedshorteditor=\count211
+\c@labelname=\count212
+\c@savedlabelname=\count213
+\c@institution=\count214
+\c@savedinstitution=\count215
+\c@lista=\count216
+\c@savedlista=\count217
+\c@listb=\count218
+\c@savedlistb=\count219
+\c@listc=\count220
+\c@savedlistc=\count221
+\c@listd=\count222
+\c@savedlistd=\count223
+\c@liste=\count224
+\c@savedliste=\count225
+\c@listf=\count226
+\c@savedlistf=\count227
+\c@location=\count228
+\c@savedlocation=\count229
+\c@organization=\count230
+\c@savedorganization=\count231
+\c@origlocation=\count232
+\c@savedoriglocation=\count233
+\c@origpublisher=\count266
+\c@savedorigpublisher=\count267
+\c@publisher=\count268
+\c@savedpublisher=\count269
+\c@language=\count270
+\c@savedlanguage=\count271
+\c@pageref=\count272
+\c@savedpageref=\count273
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count274
+\c@textcitetotal=\count275
+\c@textcitemaxnames=\count276
+\c@biburlnumpenalty=\count277
+\c@biburlucpenalty=\count278
+\c@biburllcpenalty=\count279
+\c@smartand=\count280
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count281
+\c@bbx:relatedtotal=\count282
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2015/04/19 v3.0 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count283
+\@quotereset=\count284
+
 (/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
 eport.aux)
 \openout1 = `Debye_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Info: Redefining \microtypecontext on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -786,16 +995,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
+\scratchcounter=\count285
 \scratchdimen=\dimen157
 \scratchbox=\box31
-\nofMPsegments=\count135
-\nofMParguments=\count136
+\nofMPsegments=\count286
+\nofMParguments=\count287
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count137
+\MPscratchCnt=\count288
 \MPscratchDim=\dimen158
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks28
 )
 \AtBeginShipoutBox=\box32
@@ -807,7 +1016,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 68.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -815,19 +1024,31 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count140
+\c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
 eport.out)
 (/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
 eport.out)
-\@outlinefile=\write3
-\openout3 = `Debye_Report.out'.
+\@outlinefile=\write4
+\openout4 = `Debye_Report.out'.
 
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Debye_Report.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Debye_Report.bbl' found.
+
+(/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
+eport.bbl)
+Package biblatex Info: Reference section=0 on input line 68.
+Package biblatex Info: Reference segment=0 on input line 68.
 
 Chapter 1.
 
@@ -858,73 +1079,134 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
 ) (./theory.tex)
-(./methods.tex) (./results.tex [1
+(./methods.tex
+
+LaTeX Warning: Citation 'nakashima_ohhelp:_2009' on page 1 undefined on input l
+ine 13.
+
+[1
 
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/case6_jph_paths.png, id=56, 1422.31375pt x 838.13126pt>
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./results.tex <images/case6_jph_paths.png, id=67, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths.png Graphic file (type png)
 
 <use images/case6_jph_paths.png>
-Package pdftex.def Info: images/case6_jph_paths.png used on input line 34.
+Package pdftex.def Info: images/case6_jph_paths.png used on input line 32.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/case6_jph_paths_2.png, id=57, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths_2.png, id=68, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths_2.png Graphic file (type png)
 
 <use images/case6_jph_paths_2.png>
-Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 35.
+Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 33.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/pot_case25.png, id=58, 2034.60126pt x 1102.1175pt>
+<images/pot_case25.png, id=69, 2034.60126pt x 1102.1175pt>
 File: images/pot_case25.png Graphic file (type png)
 
 <use images/pot_case25.png>
-Package pdftex.def Info: images/pot_case25.png used on input line 45.
+Package pdftex.def Info: images/pot_case25.png used on input line 43.
 (pdftex.def)             Requested size: 125.47794pt x 67.95723pt.
 
-<images/pot_case36.png, id=59, 2034.60126pt x 1102.1175pt>
+<images/pot_case36.png, id=70, 2034.60126pt x 1102.1175pt>
 File: images/pot_case36.png Graphic file (type png)
 
 <use images/pot_case36.png>
-Package pdftex.def Info: images/pot_case36.png used on input line 46.
+Package pdftex.def Info: images/pot_case36.png used on input line 44.
 (pdftex.def)             Requested size: 125.47794pt x 67.95723pt.
-) (./discussion.tex) (./conclusion.tex
-Underfull \vbox (badness 1314) has occurred while \output is active []
+ [2]
+./results.tex:58: Missing $ inserted.
+<inserted text> 
+                $
+l.58 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- [2 <./images/case6_jph_paths.png (PNG copy)> <./images/case6_jph_paths_2.png (
-PNG copy)> <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG c
-opy)>])
-(/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
-eport.bbl [3] [4
+./results.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-]
+LaTeX Warning: File `images/ion density case1.png' not found on input line 70.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+<images/ion density case1.png, id=84, 467.49657pt x 450.9347pt>
+File: images/ion density case1.png Graphic file (type png)
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+<use images/ion density case1.png>
+Package pdftex.def Info: images/ion density case1.png used on input line 70.
+(pdftex.def)             Requested size: 125.47794pt x 121.03151pt.
+
+
+LaTeX Warning: File `images/ion density x-z case2.png' not found on input line 
+71.
+
+<images/ion density x-z case2.png, id=85, 475.02469pt x 395.22656pt>
+File: images/ion density x-z case2.png Graphic file (type png)
+
+<use images/ion density x-z case2.png>
+Package pdftex.def Info: images/ion density x-z case2.png used on input line 71
+.
+(pdftex.def)             Requested size: 125.47794pt x 104.39682pt.
+
+
+LaTeX Warning: File `images/ion density x-y case3.png' not found on input line 
+72.
+
+<images/ion density x-y case3.png, id=86, 481.04718pt x 395.22656pt>
+File: images/ion density x-y case3.png Graphic file (type png)
+
+<use images/ion density x-y case3.png>
+Package pdftex.def Info: images/ion density x-y case3.png used on input line 72
+.
+(pdftex.def)             Requested size: 125.47794pt x 103.08817pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+[]\OT1/cmr/m/n/10.95 (+20) density case1.png [] dens-ity x-z case2.png
+ []
+
+[3 <./images/case6_jph_paths.png (PNG copy)> <./images/case6_jph_paths_2.png (P
+NG copy)> <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG co
+py)>]) (./discussion.tex) (./conclusion.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+ [4 <./images/ion density case1.png> <./images/ion density x-z case2.png> <./im
+ages/ion density x-y case3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 
 (/Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.texpadtmp/Debye_R
 eport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 377017C2AB622ABC4A6BF5F485263C46;529.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+(rerunfilecheck)             Checksum: CA54D9B665BA8BF260FA34604D1043B7;827.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Debye_Report
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
+\openout1 = `Debye_Report.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 12272 strings out of 493089
- 194608 string characters out of 6134842
- 391220 words of memory out of 5000000
- 15492 multiletter control sequences out of 15000+600000
- 16049 words of font info for 67 fonts, out of 8000000 for 9000
+ 17339 strings out of 493089
+ 288044 string characters out of 6134842
+ 840151 words of memory out of 5000000
+ 20488 multiletter control sequences out of 15000+600000
+ 16457 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,11n,54p,461b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,54p,1157b,1608s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -932,13 +1214,15 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on /Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.
-texpadtmp/Debye_Report.pdf (5 pages, 406112 bytes).
+texpadtmp/Debye_Report.pdf (4 pages, 736619 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 17509 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 17548 words of extra memory for PDF output out of 20736 (max. 10000000)
 

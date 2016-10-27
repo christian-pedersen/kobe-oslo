@@ -3,21 +3,33 @@
 	\item Experimental set up
 	\item 
 \end{itemize}
+\subsection{Numerical methods}
+
+To solve the problem numerically we use the EMSES code. EMSES uses the standard PIC method for plasma simulations.
+In the code we are able to define a spacecraft body, and the code then calculates the potential on that body using the capacitance matrix method.
+Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the poisson's equation 
+solver for electrostatic problems. In the EMSES system we can define sunlit surfaces based upon an angle, and a current 
+desity. Sunlit surfaces will then emmit electrons based upon a energy distribution. For a complete description of EMSES' capabilities
+see 
 
 
-With width specified:
+\subsection{Test case setup}
+
+We wish to simulate the effects of Photon emmision in different test cases, and have thus set up the following
+6 cases:
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
-    Day & Min Temp & Max Temp & Summary \\ \hline
-    Monday & 11C & 22C & A clear day with lots of sunshine.  
-    However, the strong breeze will bring down the temperatures. \\ \hline
-    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
-    across most of Scotland and Northern Ireland, 
-    but rain reaching the far northwest. \\ \hline
-    Wednesday & 10C & 21C & Rain will still linger for the morning. 
-    Conditions will improve by early afternoon and continue 
-    throughout the evening. \\
+    Case & Plasme flow & Photon emission  \\ \hline
+     1: & 41600 $\vec{e_x}$ m/s  & 0 \\ \hline
+     2: & -41600 $\vec{e_z}$ m/s & 0 \\ \hline
+     3: & -41600 $\vec{e_y}$ m/s & 0 \\ \hline
+     4: & 41600 $\vec{e_x}$ m/s & $-10^{-3} A/m^{3}$ $\vec{e_x}$\\ \hline
+     5: & -41600 $\vec{e_z}$ m/s & $-10^{-3} A/m^{3}$ $\vec{e_x}$\\ \hline
+     6: & -41600 $\vec{e_y}$ m/s & $-10^{-3} A/m^{3}$  $\vec{e_x}$\\
     \hline
     \end{tabular}
 \end{center}
+
+So test case 1-4, 2-5, and 3-6 are the ``same'' cases exept that we run the simulation with and without
+photon emission to compare the cases two and two. 
