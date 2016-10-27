@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  27 OCT 2016 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1098,21 +1098,18 @@ LaTeX Warning: Citation 'nakashima_ohhelp:_2009' on page 2 undefined on input l
 ine 8.
 
 
-Underfull \vbox (badness 4686) has occurred while \output is active []
-
- [2]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<images/picture_simulation1.png, id=81, 494.59781pt x 344.03531pt>
+[2] <images/picture_simulation1.png, id=82, 494.59781pt x 344.03531pt>
 File: images/picture_simulation1.png Graphic file (type png)
 
 <use images/picture_simulation1.png>
 Package pdftex.def Info: images/picture_simulation1.png used on input line 74.
 (pdftex.def)             Requested size: 209.12778pt x 145.46501pt.
 
-<images/picture_simulation2-2.png, id=82, 628.59843pt x 440.39531pt>
+<images/picture_simulation2-2.png, id=83, 628.59843pt x 440.39531pt>
 File: images/picture_simulation2-2.png Graphic file (type png)
 
 <use images/picture_simulation2-2.png>
@@ -1124,7 +1121,8 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 74--76
 [][] [] 
  []
 
-) (./results.tex [3] <images/emph.pdf, id=89, 578.16pt x 433.62pt>
+) (./results.tex [3 <./images/picture_simulation1.png> <./images/picture_simula
+tion2-2.png>] <images/emph.pdf, id=89, 578.16pt x 433.62pt>
 File: images/emph.pdf Graphic file (type pdf)
 
 <use images/emph.pdf>
@@ -1144,10 +1142,8 @@ File: images/case6_jph_paths_2.png Graphic file (type png)
 <use images/case6_jph_paths_2.png>
 Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 48.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
- [4 <./images/picture_simulation1.png> <./images/picture_simulation2-2.png>] [5
- <./images/emph.pdf> <./images/case6_jph_paths.png (PNG copy)> <./images/case6_
-jph_paths_2.png (PNG copy)>]
-<images/caliculation_of_electron_current.png, id=148, 182.93344pt x 95.6072pt>
+
+<images/caliculation_of_electron_current.png, id=96, 182.93344pt x 95.6072pt>
 File: images/caliculation_of_electron_current.png Graphic file (type png)
 
 <use images/caliculation_of_electron_current.png>
@@ -1155,7 +1151,7 @@ Package pdftex.def Info: images/caliculation_of_electron_current.png used on in
 put line 67.
 (pdftex.def)             Requested size: 188.21371pt x 98.37146pt.
 
-<images/caliculation_of_PE_current.png, id=149, 201.75375pt x 54.9553pt>
+<images/caliculation_of_PE_current.png, id=97, 201.75375pt x 54.9553pt>
 File: images/caliculation_of_PE_current.png Graphic file (type png)
 
 <use images/caliculation_of_PE_current.png>
@@ -1163,39 +1159,40 @@ Package pdftex.def Info: images/caliculation_of_PE_current.png used on input li
 ne 68.
 (pdftex.def)             Requested size: 188.21371pt x 51.26721pt.
 
-<images/pot_case14.png, id=150, 670.75594pt x 361.35pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/pot_case14.png, id=98, 670.75594pt x 361.35pt>
 File: images/pot_case14.png Graphic file (type png)
 
 <use images/pot_case14.png>
 Package pdftex.def Info: images/pot_case14.png used on input line 81.
 (pdftex.def)             Requested size: 250.95587pt x 135.19164pt.
- [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
-E_current.png> <./images/pot_case14.png>]
-<images/pot_case25.png, id=159, 2034.60126pt x 1102.1175pt>
+ [4] [5 <./images/emph.pdf> <./images/case6_jph_paths.png (PNG copy)> <./images
+/case6_jph_paths_2.png (PNG copy)>]
+<images/pot_case25.png, id=153, 2034.60126pt x 1102.1175pt>
 File: images/pot_case25.png Graphic file (type png)
 
 <use images/pot_case25.png>
 Package pdftex.def Info: images/pot_case25.png used on input line 99.
 (pdftex.def)             Requested size: 250.95587pt x 135.93129pt.
-
-<images/pot_case36.png, id=162, 2034.60126pt x 1102.1175pt>
+ [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
+E_current.png> <./images/pot_case14.png>]
+<images/pot_case36.png, id=164, 2034.60126pt x 1102.1175pt>
 File: images/pot_case36.png Graphic file (type png)
 
 <use images/pot_case36.png>
 Package pdftex.def Info: images/pot_case36.png used on input line 114.
 (pdftex.def)             Requested size: 250.95587pt x 135.93129pt.
 
-Underfull \vbox (badness 4846) has occurred while \output is active []
-
- [7 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>]
-<images/ion_density_case1.png, id=174, 467.49657pt x 450.9347pt>
+<images/ion_density_case1.png, id=167, 467.49657pt x 450.9347pt>
 File: images/ion_density_case1.png Graphic file (type png)
 
 <use images/ion_density_case1.png>
 Package pdftex.def Info: images/ion_density_case1.png used on input line 126.
 (pdftex.def)             Requested size: 125.47794pt x 121.03151pt.
 
-<images/ion_density_x-z_case2.png, id=175, 475.02469pt x 395.22656pt>
+<images/ion_density_x-z_case2.png, id=168, 475.02469pt x 395.22656pt>
 File: images/ion_density_x-z_case2.png Graphic file (type png)
 
 <use images/ion_density_x-z_case2.png>
@@ -1203,14 +1200,15 @@ Package pdftex.def Info: images/ion_density_x-z_case2.png used on input line 12
 7.
 (pdftex.def)             Requested size: 125.47794pt x 104.39682pt.
 
-<images/ion_density_x-y_case3.png, id=176, 481.04718pt x 395.22656pt>
+<images/ion_density_x-y_case3.png, id=169, 481.04718pt x 395.22656pt>
 File: images/ion_density_x-y_case3.png Graphic file (type png)
 
 <use images/ion_density_x-y_case3.png>
 Package pdftex.def Info: images/ion_density_x-y_case3.png used on input line 12
 8.
 (pdftex.def)             Requested size: 125.47794pt x 103.08817pt.
-) (./discussion.tex) (./conclusion.tex)
+) [7 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>]
+ (./discussion.tex) (./conclusion.tex)
 
 LaTeX Warning: Empty bibliography on input line 101.
 
@@ -1246,7 +1244,7 @@ Here is how much of TeX's memory you used:
  20502 multiletter control sequences out of 15000+600000
  17132 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,22n,54p,1157b,1577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,54p,1157b,1573s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1259,7 +1257,7 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on /Users/Christian/Documents/uio/4Dspace/git/kobe-oslo/report/.
-texpadtmp/Debye_Report.pdf (8 pages, 841515 bytes).
+texpadtmp/Debye_Report.pdf (8 pages, 841387 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
