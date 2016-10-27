@@ -33,34 +33,34 @@
 
 	Figure~\ref{fig:emph} shows the measured potential at case \(6\).
 
-\subsection{Photoemmision paths}
+\subsection{Photoemission paths}
 
-	The electrons emmited from the spacecraft due to the photoelectric effect, have a kinetic
+	The electrons emitted from the spacecraft due to the photoelectric effect, have a kinetic
 	energy corresponding to a Maxwellian distribution with a temperature of \(T_{ph} =  3.8481\cdot 10^{4} \text{K}\).
-	Figure~\ref{fig:trajectories} illustrates the trajectories of the emmited electrons in simulation \(6\).
+	Figure~\ref{fig:trajectories} illustrates the trajectories of the emitted electrons in simulation \(6\).
 	As the probes are situated \(10 \text{cm}\) to the sides of the spacecraft on the \(x-\)axis, the probes
-	may be hit by the photo-emmited electrons. In the following section, \ref{sec:acc_emmited}, we show the number of electrons hitting
+	may be hit by the photo-emitted electrons. In the following section, \ref{sec:acc_emitted}, we show the number of electrons hitting
 	the probes.
 
 
 	\begin{figure}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths_2}
-		\caption{The trajectories of the electrons emmited by the photoelectric effect in simulation \(6\). The possible
-		paths of the photoemmited electrons coincide with the volume occupied by the langmuir probes. The photoemmited electrons are strongly affected by the magnetic
-		field \(\vec{B}\), and follows a gyrating path guided by \(\vec{B}\). The photoemmited electrons are in all the studied cases
-		emmited from the spacecraft in \(-x\) direction, and the paths are similar. The langmuir probes are situated \(10 \text{cm}\) to each side
-		of the spacecraft along the \(x-\)direction. (NOTE, should have axis labels, and domain length.)}
+		\caption{The trajectories of the electrons emitted by the photoelectric effect in simulation \(6\). The possible
+		paths of the photoemitted electrons coincide with the volume occupied by the langmuir probes. The photoemitted electrons are strongly affected by the magnetic
+		field \(\vec{B}\), and follows a gyrating path guided by \(\vec{B}\). The photoemitted electrons are in all the studied cases
+		emitted from the spacecraft in \(-x\) direction, and the paths are similar. The langmuir probes are situated \(10 \text{cm}\) to each side
+		of the spacecraft along the \(x-\)direction.}
 		\label{fig:trajectories}
 	\end{figure}
 
 \subsection{Accumulated Photoelectrons on Langmuir Probes}
-\label{sec:acc_emmited}
+\label{sec:acc_emitted}
 
 In the simulations both electrons and photoelectrons are absorbed by the probes. Table~\ref{tab:elec_current} shows the current
 of both regular electrons, as well as photoelectrons, interacting with the probes.
-The photoelectrons are emmited on the left side of the spacecraft and we see a larger current of
-photoelectrons here. The current caused by the photoemmision is \(10-100\) smaller than the current
+The photoelectrons are emitted on the left side of the spacecraft and we see a larger current of
+photoelectrons here. The current caused by the photoemission is \(10-100\) smaller than the current
 from the electrons in the plasma.
 
 \begin{figure}[h]
@@ -77,13 +77,15 @@ from the electrons in the plasma.
 \subsubsection{Case 1 vs case 4}
 
 \begin{figure}
-    \includegraphics[width = 0.3 \textwidth]{images/pot_case14.png}
+    \centering
+    \includegraphics[width = 0.5 \textwidth]{images/pot_case14.png}
     \caption{Potential of satellite and surroundings in the x-direction for case 1 and case4. Note that the potential drop i much greater in the right probe when comparing the two cases.}
+    \label{fig:pot_case14}
 \end{figure}
 
 
 In case 4 we have the emitted electrons in the negative flow direction. As expected this
-leads to a drop in potential in the left probe which is facing the plasma flow. The
+leads to a drop in potential in the left probe which is facing the plasma flow as can be seen in figure \ref{fig:pot_case14}. The
 potential drop over the probe is 0.02V or 3.8\%. The right probe is now the wake where we have
 a drop in the ion density. This yields a large drop in potential compared to the left
 probe, but it also has a larger potential drop than the left probe when comparing case 1 and 4. This
@@ -93,12 +95,13 @@ The potential drop in the right probe comparing the two cases is 0.07V or 10\%. 
 
 \subsubsection{Case 2 vs case 5}
 \begin{figure}
+    \centering
     \includegraphics[width = 0.5 \textwidth]{images/pot_case25.png}
     \caption{Figure show potential of satellite and surroundings in the x-direction for case 2 and 5. Note that we have a small potential drop in the left probe but a potential rise in the right probe when comparing the two cases.}
     \label{fig:pot_case25}
 \end{figure}
 
-With the flow of emmited electrons in the negative x direction we would expect a rise in electron density around the left probe.
+With the flow of emitted electrons in the negative x direction we would expect a rise in electron density around the left probe.
 This can be seen in figure \ref{fig:pot_case25} where we see a 5.4\% drop in the potential of this probe compared to case 5 with no emitted
 electrons. On the right probe we have a small rise in the potential of 3.3\%. With no emitted electrons on this side of the satellite the rise in
 potential can be explained by looking at the increase in ion density as seen in figure \ref{fig:wake}.
@@ -107,11 +110,13 @@ In the satellite we have a potential rise of 28\%. So the change in potential in
 \subsubsection{Case 3 vs case 6}
 
 \begin{figure}
+    \centering
     \includegraphics[width = 0.5 \textwidth]{images/pot_case36.png}
     \caption{Figure show potential of satellite and surroundings in the x-direction for case 3 and 6. Note that there is almost the same drop in potential for both probes.}
+    \label{fig:pot_case36}
 \end{figure}
 
-Here we have almost the same drop in potential over both probes of about 0.03V. However this change yields 12\% for the left probe but only 3\% for the right probe. Over the satellite we have a potential rise of 0.15V which yields a 26\% change.
+As we can see in figure \ref{fig:pot_case36} Here we have almost the same drop in potential over both probes of about 0.03V. However this change yields 12\% for the left probe but only 3\% for the right probe. Over the satellite we have a potential rise of 0.15V which yields a 26\% change.
 
 \subsection{Wake plots}
 	The spacecraft is moving relative to the plasma flow, this causes a wake to be formed in the vicinity of the craft.
