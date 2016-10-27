@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.27)  27 OCT 2016 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.27)  27 OCT 2016 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1257,50 +1257,47 @@ ne 68.
 File: images/pot_case14.png Graphic file (type png)
 
 <use images/pot_case14.png>
-Package pdftex.def Info: images/pot_case14.png used on input line 80.
-(pdftex.def)             Requested size: 125.47794pt x 67.59305pt.
-
-<images/pot_case25.png, id=157, 2034.60126pt x 1102.1175pt>
+Package pdftex.def Info: images/pot_case14.png used on input line 81.
+(pdftex.def)             Requested size: 209.12778pt x 112.65694pt.
+ [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
+E_current.png> <./images/pot_case14.png>]
+<images/pot_case25.png, id=165, 2034.60126pt x 1102.1175pt>
 File: images/pot_case25.png Graphic file (type png)
 
 <use images/pot_case25.png>
-Package pdftex.def Info: images/pot_case25.png used on input line 96.
+Package pdftex.def Info: images/pot_case25.png used on input line 99.
 (pdftex.def)             Requested size: 209.12778pt x 113.27888pt.
 
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
-E_current.png> <./images/pot_case14.png>]
-<images/pot_case36.png, id=167, 2034.60126pt x 1102.1175pt>
+<images/pot_case36.png, id=168, 2034.60126pt x 1102.1175pt>
 File: images/pot_case36.png Graphic file (type png)
 
 <use images/pot_case36.png>
-Package pdftex.def Info: images/pot_case36.png used on input line 110.
+Package pdftex.def Info: images/pot_case36.png used on input line 114.
 (pdftex.def)             Requested size: 209.12778pt x 113.27888pt.
 
-<images/ion_density_case1.png, id=169, 467.49657pt x 450.9347pt>
+<images/ion_density_case1.png, id=171, 467.49657pt x 450.9347pt>
 File: images/ion_density_case1.png Graphic file (type png)
 
 <use images/ion_density_case1.png>
-Package pdftex.def Info: images/ion_density_case1.png used on input line 121.
+Package pdftex.def Info: images/ion_density_case1.png used on input line 126.
 (pdftex.def)             Requested size: 125.47794pt x 121.03151pt.
 
-<images/ion_density_x-z_case2.png, id=170, 475.02469pt x 395.22656pt>
+<images/ion_density_x-z_case2.png, id=172, 475.02469pt x 395.22656pt>
 File: images/ion_density_x-z_case2.png Graphic file (type png)
 
 <use images/ion_density_x-z_case2.png>
 Package pdftex.def Info: images/ion_density_x-z_case2.png used on input line 12
-2.
+7.
 (pdftex.def)             Requested size: 125.47794pt x 104.39682pt.
 
-<images/ion_density_x-y_case3.png, id=171, 481.04718pt x 395.22656pt>
+<images/ion_density_x-y_case3.png, id=173, 481.04718pt x 395.22656pt>
 File: images/ion_density_x-y_case3.png Graphic file (type png)
 
 <use images/ion_density_x-y_case3.png>
 Package pdftex.def Info: images/ion_density_x-y_case3.png used on input line 12
-3.
+8.
 (pdftex.def)             Requested size: 125.47794pt x 103.08817pt.
-) [7 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>]
+ [7 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>])
  (./discussion.tex) (./conclusion.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
@@ -1337,13 +1334,13 @@ Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 17755 strings out of 493029
- 293223 string characters out of 6136233
- 830987 words of memory out of 5000000
- 20889 multiletter control sequences out of 15000+600000
- 17630 words of font info for 98 fonts, out of 8000000 for 9000
+ 17759 strings out of 493029
+ 293271 string characters out of 6136233
+ 831387 words of memory out of 5000000
+ 20891 multiletter control sequences out of 15000+600000
+ 17681 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,22n,66p,1157b,1577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,66p,1157b,1606s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1356,10 +1353,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b>
-Output written on Debye_Report.pdf (8 pages, 850201 bytes).
+Output written on Debye_Report.pdf (8 pages, 850827 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 240 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  42 named destinations out of 1000 (max. 500000)
  17594 words of extra memory for PDF output out of 20736 (max. 10000000)
 
