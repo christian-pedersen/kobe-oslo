@@ -10,12 +10,28 @@ In the code we are able to define a spacecraft body, and the code then calculate
 Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the poisson's equation 
 solver for electrostatic problems. In the EMSES system we can define sunlit surfaces based upon an angle, and a current 
 desity. Sunlit surfaces will then emmit electrons based upon a energy distribution. For a complete description of EMSES' capabilities
-see 
+see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at the earth, but with an enhanced flux to emphasize the effect in question. 
+
+\subsection{Theoretical calculations}
+
+\begin{equation}
+\begin{split}
+ I_i =
+    \left\{\begin{array}{ccc}
+       A|q|n_i\sqrt{\frac{8 k T_i}{\pi m_i}} \\
+       \frac{1}{6}A |q|n_i V + \frac{5}{6} A |q| n_i \sqrt{\frac{8 k T_i}{\pi M_i}}
+      \end{array}\right. \\
+  I_e = -A|q|n_e \sqrt{\frac{8 k T_e}{\pi m_e}}exp\Big(\frac{|q|\Phi_d}{k T_e}\Big)
+\end{split}	
+\label{thin sheet potential} 
+\end{equation}
+
+
 
 
 \subsection{Test case setup}
 
-We wish to simulate the effects of Photon emmision in different test cases, and have thus set up the following
+We wish to simulate the effects of Photon emmited electrons in different test cases, and have thus set up the following
 6 cases:
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
