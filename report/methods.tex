@@ -21,11 +21,11 @@ see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at
 \end{split}
 \label{thin sheet potential}
 \end{equation}
-Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for \(phi_d\), we can get
+Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for $\Phi_d$, we can get
 \begin{equation}
 \begin{split}
  \Phi_d = & \frac{k T_e}{|q|}ln\Big(\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}}\Big) + \Phi_0 \\
- \Phi_d = & \frac{k T_e}{|q|}ln\Big(\frac{5}{6}\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{V}{6}\sqrt{\frac{\pi m_e}{8 k T_e}} + \frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}} \Big) \\
+ \Phi_d = & \frac{k T_e}{|q|}ln\Big(\frac{5}{6}\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{V}{6}\sqrt{\frac{\pi m_e}{8 k T_e}} + \frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}} \Big)+\Phi_0 \\
  \Phi_0 = & k T_{ph}, \ V = speed\ of\ flow
 \end{split}
 \label{thin sheet potential 2}
@@ -43,7 +43,9 @@ The theory is based on thin-sheath approximation, so if SC size is much larger t
     \end{tabular}
 \end{center}
 
-From these calculations we can expect the potential over the spacecraft to rise
+There is a difference between the theoretical and numerical potential because $\lambda_D$ is not much
+smaller then the length of the satelite, which is an assumption in the thin sheeth approximation. 
+From these calculations we can, however, expect the potential over the spacecraft to rise
 in the cases where we have photon emission.
 
 \subsection{Test case setup}
