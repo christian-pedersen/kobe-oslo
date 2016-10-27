@@ -33,7 +33,6 @@
 
 	Figure~\ref{fig:emph} shows the measured potential at case \(6\).
 
-
 \subsection{Photoemmision paths}
 
 	The electrons emmited from the spacecraft due to the photoelectric effect, have a kinetic
@@ -55,24 +54,40 @@
 		\label{fig:trajectories}
 	\end{figure}
 
-\subsection{Potential difference with P-E and no P-E}
+\subsection{Accumulated Photoelectrons on Langmuir Probes}
 
+In the simulations both electrons and photoelectrons are absorbed by the probes. Table~\ref{tab:elec_current} shows the current
+of both regular electrons, as well as photoelectrons, interacting with the probes.
+The photoelectrons are emmited on the left side of the spacecraft and we see a larger current of
+photoelectrons here. The current caused by the photoemmision is \(10-100\) smaller than the current
+from the electrons in the plasma.
+
+\begin{figure}[h]
+	\includegraphics[width = 0.45\textwidth]{images/caliculation_of_electron_current}
+	\includegraphics[width = 0.45\textwidth]{images/caliculation_of_PE_current}
+	\caption{The left table shows the electron current hitting the inserted probes at
+	for the simulated cases \(1-6\). On the table to the right the photoelectrons hitting the probes are shown.
+	The photoelectron current is smaller than the electron current from the plasma, varying from \(10-100\) times smaller.}
+	\label{tab:elec_current}
+\end{figure}
+
+\subsection{Potential difference with P-E and no P-E}
 
 \subsubsection{Case 1 vs case 4}
 
 \begin{figure}
     \includegraphics[width = 0.3 \textwidth]{images/pot_case14.png}
-    \caption{Potential of satelite and surroundings in the x-direction for case 1 and case4. Note that the potential drop i much greater in the right probe when comparing the two cases.}
+    \caption{Potential of satelite and surroundings in the x-direction for case 1 and case4.}
 \end{figure}
 
 
-In case 4 we have the emitted electrons in the negative flow direction. As expected this
+Here we have the emitted electrons in the negative flow direction. As expected this
 leads to a drop in potential in the left probe which is facing the plasma flow. The
-potential drop over the probe is 0.02V or 3.8\%. The right probe is now the wake where we have
+potential drop over the probe is 3.8\%. The right probe is now the wake where we have
 a drop in the ion density. This yields a large drop in potential compared to the left
-probe, but it also has a larger potential drop than the left probe when comparing case 1 and 4. This
-might be because the increase in electron density on the left side redirects more ions from the right side.
-The potential drop in the right probe comparing the two cases is 0.07V or 10\%. The potential rise over the satelite is 0.17V or 28\%.
+probe, but it also has a larger than the left probe when comparing case 1 and 4. This
+might be because the potential drop on the left side redirects more ions from the right side.
+The potential drop comparing the two cases is 10\%. The potential rise over the satelite is 28\%.
 
 
 \subsubsection{Case 2 vs case 5}
@@ -80,33 +95,33 @@ The potential drop in the right probe comparing the two cases is 0.07V or 10\%. 
 
 \begin{figure}
     \includegraphics[width = 0.5 \textwidth]{images/pot_case25.png}
-    \caption{Figure show potential of satelite and surroundings in the x-direction for case 2 and 5. Note that we have a small potential drop in the left probe but a potential rise in the right probe when comparing the two cases.}
+    \caption{Figure show potential of satelite and surroundings in the x-direction for case 2 and 5.}
     \label{fig:pot_case25}
 \end{figure}
 
 With the flow of emmited electrons in the negative x direction we would expect a rise in electron density around the left probe.
-This can be seen in figure \ref{fig:pot_case25} where we see a potential drop of 0.03V or 5.4\% over this probe compared to case 5 with no emitted
-electrons. On the right probe we have a small rise in the potential of 0.018V or 3.3\%. With no emitted electrons on this side of the satelite the rise in
-potential can be explained by looking at the increase in ion density as seen in figure (need ref).
-In the satelite we have a potential rise of 0.16V or 28\%. So the potential change in the probes are small compared to the potential change in the satelite.
+This can be seen in figure \ref{fig:pot_case25} where we see a 5.4\% drop in the potential of this probe compared to case 5 with no emitted
+electrons. On the right probe we have a small rise in the potential of 3.3\%. With no emitted electrons on this side of the satelite the rise in
+potential can be explained by looking at the increase in ion density as seen in figure \ref{wake}.
+In the satelite we have a potential rise of 28\%. So the change in potential in the probes are small compared to the change in the satelite.
 
 \subsubsection{Case 3 vs case 6}
 
 \begin{figure}
     \includegraphics[width = 0.5 \textwidth]{images/pot_case36.png}
-    \caption{Figure show potential of satelite and surroundings in the x-direction for case 3 and 6. Note that there is almost the same drop in potential for both probes.}
+    \caption{Figure show potential of satelite and surroundings in the x-direction for case 3 and 6.}
 \end{figure}
 
-Here we have almost the same drop in potential over both probes of about 0.03V. However this change yields 12\% for the left probe but only 3\% for the right probe. Over the satelite we have a potential rise of 0.15V which yields a 26\% change.
+A rather large drop in potential of \( 12\)\% on both probes. Potential rise of \(26\)\% over the satelite.
 
 \subsection{Wake plots}
-
-Comparing the two cases we have a rather large drop in potential of 12\% on the left probe. We see that we have about the same potential drop value on the right side but the change is only 3\% when comparing the cases. Potential rise of 26\% over the satelite.
-
+	The spacecraft is moving relative to the plasma flow, this causes a wake to be formed in the vicinity of the craft.
+ 	Figures~\ref{fig:wake} illustrates the flow in case \(1,2\) and \(3\).
 
     \begin{figure}
         \includegraphics[width = 0.3 \textwidth]{images/ion_density_case1}
         \includegraphics[width = 0.3 \textwidth]{images/ion_density_x-z_case2}
 	\includegraphics[width = 0.3 \textwidth]{images/ion_density_x-y_case3}
         \caption{Ion density of spacecraft and surroundings without P-E Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
+		\label{fig:wake}
     \end{figure}
