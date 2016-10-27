@@ -16,16 +16,25 @@ see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at
 
 \begin{equation}
 \begin{split}
- I_i =
+ I_i = &
     \left\{\begin{array}{ccc}
-       A|q|n_i\sqrt{\frac{8 k T_i}{\pi m_i}} \\
-       \frac{1}{6}A |q|n_i V + \frac{5}{6} A |q| n_i \sqrt{\frac{8 k T_i}{\pi M_i}}
+       A|q|n_\infty\sqrt{\frac{8 k T_i}{\pi m_i}} (without flow)\\
+       \frac{1}{6}A |q|n_\infty V + \frac{5}{6} A |q| n_\infty \sqrt{\frac{8 k T_i}{\pi M_i}}(with flow)
       \end{array}\right. \\
-  I_e = -A|q|n_e \sqrt{\frac{8 k T_e}{\pi m_e}}exp\Big(\frac{|q|\Phi_d}{k T_e}\Big)
-\end{split}	
+  I_e = & -A|q|n_\infty \sqrt{\frac{8 k T_e}{\pi m_e}}exp\Big(\frac{|q|\Phi_d}{k T_e}\Big)\\
+  I_{ph} = & \frac{1}{6} AJ_s
+\end{split}
 \label{thin sheet potential} 
 \end{equation}
 
+\begin{equation}
+\begin{split}
+ \Phi_d = & \frac{k T_e}{|q|}ln\Big(\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}}\Big) + \Phi_0 \\
+ \Phi_d = & \frac{k T_e}{|q|}ln\Big(\frac{5}{6}\sqrt{\frac{T_i}{T_e}}\sqrt{\frac{m_e}{m_i}}+\frac{V}{6}\sqrt{\frac{\pi m_e}{8 k T_e}} + \frac{J_s}{6 n_\infty |q|}\sqrt{\frac{\pi m_e}{8 k T_e}} \Big) \\
+ \Phi_0 = & k T_{ph}, \ V = speed\ of\ flow
+\end{split}
+\label{thin sheet potential 2} 
+\end{equation}
 
 
 
@@ -51,7 +60,7 @@ So test case 1-4, 2-5, and 3-6 are the ``same'' cases exept that we run the simu
 photon emission to compare the cases two and two. 
 
 \begin{figure}
-        \includegraphics[width = 0.4 \textwidth]{images/picture_simulation1.png}
-        \includegraphics[width = 0.4 \textwidth]{images/picture_simulation2-2.png}
+        \includegraphics[width = 0.5 \textwidth]{images/picture_simulation1.png}
+        \includegraphics[width = 0.5 \textwidth]{images/picture_simulation2-2.png}
         \caption{a description here}
     \end{figure}  

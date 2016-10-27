@@ -2053,9 +2053,7 @@
     <bcf:citekey order="1">nakashima_ohhelp:_2009</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
-<<<<<<< HEAD
-=======
-  <bcf:sortlist section="0" type="entry" label="nyt">
+  <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
@@ -2085,5 +2083,4 @@
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
->>>>>>> 92d93bf9e6a41ebda69a09bcce5e462f6b546123
 </bcf:controlfile>
