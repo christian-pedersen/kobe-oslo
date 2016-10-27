@@ -1,6 +1,41 @@
 
-Langmuir probes, as well as other instruments, are often situated outside of space crafts.
-The precence of the spacecraft causes disturbances to the local conditions we want to measure,
-these disturbances need to be corrected for.
-Many studies has been done on the flow of plasma around spacecraft and of the wake the
-spacecraft creates \citep{miloch_wake_2010,engwall_wake_2006}.
+% Langmuir probes, as well as other instruments, are often situated outside of space crafts.
+% The precence of the spacecraft causes disturbances to the local conditions we want to measure,
+% these disturbances need to be corrected for.
+% Many studies has been done on the flow of plasma around spacecraft and of the wake the
+% spacecraft creates \citep{miloch_wake_2010,engwall_wake_2006}.
+
+The spacecraft in space will always be affected by its environment resulting various
+impacts depending on the orbit (location), types of material as well as the environment
+condition that changes over time \citep{trove.nla.gov.au/work/21680840}. The  most common phenomena on the spacecraft is what so
+called charging. The level of charging depends on the energy of particles interacting with
+the spacecraft. At the lower energy, the form of interaction of charged particles with the
+spacecraft only affect the surface part called surface charging. However, the higher energy
+the worse affects might be occurred on the spacecraft and in this case the charged particles
+can penetrate deep inside the spacecraft component resulting in so called internal charging \citep{fennell2001spacecraft}.
+
+Charging on the spacecraft can be simulated numerically. Numerous codes have been developed
+well to explain the behaviour of particles around the spacecraft as well as its interaction.
+Nevertheless, it still remains many questions since the numerical simulation is only an approximation
+of real condition. However, the numerical approach has given a good solution to various applications
+such as the spaceflight mission. The reliability of spacecraft has been proved well before launch into space.
+One of these effort is simulating the environment where the satellite will be placed during its mission.
+Many parameters has been taking into account with respect to its effect on the spacecraft.
+The results of the simulation can be significant point for decision maker for the spaceflight
+ mission. This is one of reasons why this simulation is becoming primary interest for this study.
+
+In this study, we attempt to simulate a spacecraft named Norsat-1 which will be placed in
+Low Earth Orbit (LEO) environment around 600 km altitude and polar inclination around \(98.8^\circ\).
+Initially this satellite will be launched in early 2016
+(https://directory.eopor~ tal.org/web/eoportal/satellite-missions/n/norsat-1). This satellite
+has been equipped with two probes. It is interesting since this satellite will pass over
+auroral region more frequently. In this region  the satellite will be exposed not only to
+rapid variation of thermal component of the ionosphere \citep{hastings1995review}, but also to high
+energy of particles from the solar wind.
+
+Since we use the EMSES (Electro Magnetic Spacecraft Environment Simulator) code \citep{miyake_plasma_2013} in the
+simulation, it is important to point out that only the effects of background plasma as
+well as the photo electrons from the sunlight are taking into account. The simulation
+has been done into several cases and each case has been grouped into two, i.e. plasma
+flows with and without the photoemission effects on the spacecraft as well as the probes.
+All  results will be presented in detail in the specific section in this report.
