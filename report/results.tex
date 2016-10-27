@@ -1,13 +1,9 @@
-\begin{itemize}
-	\item Comparison of cases with P-E and without
-	\item Acc of charges at probes + $\phi$, diff flows and $\alpha$
-	\item $\phi$ num vs ana
-\end{itemize}
-
 \subsection{Induced electric current}
-%Redo this part if necessary
+	%Redo this part if necessary
 	The plasma is flowing in in relation to the coordinate system in the simulations.
-	Due to this an induced electrical field, \(\varepsilon\), that neutralizes the Lorentz force.
+	Due to this an induced electrical field, \(\varepsilon\), will appear.
+	The induced electrical field will neutralize the Lorentz force.
+	Combined with the electrostatic approximation we can obtain the \(\varepsilon\)
 
 	\begin{equation}
 		\vec{\varepsilon} = \vec{v_D}\times \vec{B}
@@ -21,15 +17,14 @@
 	\end{equation}
 
 	\begin{equation}
-		|\nabla\phi| = |\vec{v}_D\times\vec{B}| \approx -\int \left( 41600 \text{m/s}\cdot 50E-6 \text{T} \right) dx
+		\phi = -\int \vec{v}_d\times\vec{B} \approx -\int \left( 41600 \text{m/s}\cdot 50E-6 \text{T} \right) dx
 	\end{equation}
-
 	\begin{equation}
 		|\nabla\phi| = 2.08 \text{m}^{-1}
 	\end{equation}
 
 	\begin{figure}
-		\includegraphics{images/emph.png}
+		\includegraphics[width = \textwidth]{images/emph}
 		\caption{The blue line is the potential along direction x for simulation \(6\). In this case the potential gradient is along
 		the \(x-\)axis. The dotted green line is the potential caused by the induced electrical field. This should be accounted for
 		if  we want to find the potential at the spacecraft and the probes.}
@@ -63,6 +58,7 @@
 \subsection{Potential difference with P-E and no P-E}
 
     \begin{figure}
+        \includegraphics[width = 0.3 \textwidth]{potential_case1&4.png}
         \includegraphics[width = 0.3 \textwidth]{images/pot_case25.png}
         \includegraphics[width = 0.3 \textwidth]{images/pot_case36.png}
         \caption{Potential of spacecraft and surroundings with P-E and without P-E.
@@ -73,7 +69,13 @@
 
 \subsubsection{Case 1 vs case 4}
 
-Need plot
+Here we have the emitted electrons in the negative flow direction. As expected this
+leads to a drop in potential in the left probe which is facing the plasma flow. The
+potential drop over the probe is 3.8\%. The right probe is now the wake where we have
+a drop in the ion density. This yields a large drop in potential compared to the left
+probe, but it also has a larger than the left probe when comparing case 1 and 4. This
+might be because the potential drop on the left side redirects more ions from the right side.
+The potential drop comparing the two cases is 10\%. The potential rise over the satelite is 28\%.
 
 
 \subsubsection{Case 2 vs case 5}
@@ -88,14 +90,13 @@ In the satelite we have a potential rise of 28\%. So the change in potential in 
 
 A rather large drop in potential of \( 12\)\% on both probes. Potential rise of \(26\)\% over the satelite.
 
-
-
-
 \subsection{Wake plots}
 
+A rather large drop in potential of 12\% on both probes. Potential rise of 26\% over the satelite.
+
     \begin{figure}
-        \includegraphics[width = 0.3 \textwidth]{images/ion density case1.png}
-        \includegraphics[width = 0.3 \textwidth]{images/ion density x-z case2.png}
-	 \includegraphics[width = 0.3 \textwidth]{images/ion density x-y case3.png}
-        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
+        \includegraphics[width = 0.3 \textwidth]{images/ion_density_case1}
+        \includegraphics[width = 0.3 \textwidth]{images/ion_density_x-z_case2}
+	\includegraphics[width = 0.3 \textwidth]{images/ion_density_x-y_case3}
+        \caption{Ion density of spacecraft and surroundings without P-E Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
     \end{figure}
