@@ -52,7 +52,11 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+<<<<<<< HEAD
       <file>biblatex_.def</file>
+=======
+      <file>biblatex.def</file>
+>>>>>>> 92d93bf9e6a41ebda69a09bcce5e462f6b546123
       <file>blx-natbib.def</file>
       <file>authoryear.bbx</file>
       <file>standard.bbx</file>

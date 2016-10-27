@@ -22,6 +22,6 @@ plt.ylabel("Potential (V)")
 plt.xlabel("Length (cm)")
 plt.legend()
 
-plt.savefig("../report/images/emph.png")
+plt.savefig("../report/images/emph.pdf")
 
 plt.show()
