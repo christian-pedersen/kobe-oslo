@@ -7,24 +7,29 @@
 \subsection{Induced electric current}
 	%Redo this part if necessary
 	The plasma is flowing in in relation to the coordinate system in the simulations.
-	Due to this an induced electrical field, \(\varepsilon\), will appear.
-	The induced electrical field will neutralize the Lorentz force.
-	Combined with the electrostatic approximation we can obtain the \(\varepsilon\)
+	Due to this an induced electrical field, \(\varepsilon\), that neutralizes the Lorentz force.
 
 	\begin{equation}
 		\vec{\varepsilon} = \vec{v_D}\times \vec{B}
 	\end{equation}
+
+	This will cause a potential gradient perpendicular to the plasma flow and the magnetic field,
+	using the electrostatic approximation we obtain the magnitude of the gradient.
+
 
 	\begin{equation}
 		\int{Edx} = -\phi
 	\end{equation}
 
 	\begin{equation}
-		\phi = -\int \vec{v}_d\times\vec{B} \approx -\int \left( 41600 \text{m/s}\cdot 50E-6 \text{T} \right) dx
+		|\nabla\phi| = |\int \vec{v}_d\times\vec{B}| \approx -\int \left( 41600 \text{m/s}\cdot 50E-6 \text{T} \right) dx
 	\end{equation}
+
 	\begin{equation}
-		\phi = -2.08 \text{x} + C
+		|\nabla\phi| = 2.08 \text{cm^{-1}}
 	\end{equation}
+
+
 
 \subsection{Photoemmision paths}
 
@@ -44,11 +49,11 @@
         \includegraphics[width = 0.3 \textwidth]{images/pot_case36.png}
         \caption{Potential of spacecraft and surroundings with P-E and without P-E. Figure on the left displays difference between case 1 and 4. Middle figure displays difference between case 2 and 5. Rightmost figure displays difference between case 3 and 6.}
     \end{figure}
-    
-    
-    
+
+
+
 \subsection{Wake plots}
-    
+
     \begin{figure}
         \includegraphics[width = 0.3 \textwidth]{images/ion density case1}
         \includegraphics[width = 0.3 \textwidth]{images/ion density x-z case2}
