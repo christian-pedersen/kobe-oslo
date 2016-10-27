@@ -16,7 +16,6 @@
 	This will cause a potential gradient perpendicular to the plasma flow and the magnetic field,
 	using the electrostatic approximation we obtain the magnitude of the gradient.
 
-
 	\begin{equation}
 		\int{Edx} = -\phi
 	\end{equation}
@@ -26,27 +25,49 @@
 	\end{equation}
 
 	\begin{equation}
-		|\nabla\phi| = 2.08 \text{cm^{-1}}
+		|\nabla\phi| = 2.08 \text{m}^{-1}
 	\end{equation}
+
+	\begin{figure}
+		\includegraphics{images/emph.png}
+		\caption{The blue line is the potential along direction x for simulation \(6\). In this case the potential gradient is along
+		the \(x-\)axis. The dotted green line is the potential caused by the induced electrical field. This should be accounted for
+		if  we want to find the potential at the spacecraft and the probes.}
+		\label{fig:emph}
+	\end{figure}
+
+	Figure~\ref{fig:emph} shows the measured potential at case \(6\).
 
 
 \subsection{Photoemmision paths}
 
+	The electrons emmited from the spacecraft due to the photoelectric effect, have a kinetic
+	energy corresponding to a Maxwellian distribution with a temperature of \(T_{ph} =  3.8481\cdot 10^{4} \text{K}\).
+	Figure~\ref{fig:trajectories} illustrates the trajectories of the emmited electrons in simulation \(6\).
+	As the probes are situated \(10 \text{cm}\) to the sides of the spacecraft on the \(x-\)axis, the probes
+	may be hit by the photo-emmited electrons. In the following section, \ref{sec:acc_emmited}, we show the number of electrons hitting
+	the probes.
+
+
 	\begin{figure}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths}
 		\includegraphics[width = 0.49 \textwidth]{images/case6_jph_paths_2}
-		\caption{The trajectories of the electrons emmited by the photoelectric effect in simulation \(6\). It can be seen that some
-		of the trajectories coincide with the volume occupied by the langmuir probes. The electrons are strongly affected by the magnetic
-		field \(\vec{B}\), and follows a gyrating path.}
- 	\end{figure}
-
+		\caption{The trajectories of the electrons emmited by the photoelectric effect in simulation \(6\). The possible
+		paths of the photoemmited electrons coincide with the volume occupied by the langmuir probes. The photoemmited electrons are strongly affected by the magnetic
+		field \(\vec{B}\), and follows a gyrating path guided by \(\vec{B}\). The photoemmited electrons are in all the studied cases
+		emmited from the spacecraft in \(-x\) direction, and the paths are similar. The langmuir probes are situated \(10 \text{cm}\) to each side
+		of the spacecraft along the \(x-\)direction. (NOTE, should have axis labels, and domain length.)}
+		\label{fig:trajectories}
+	\end{figure}
 
 \subsection{Potential difference with P-E and no P-E}
 
     \begin{figure}
         \includegraphics[width = 0.3 \textwidth]{images/pot_case25.png}
         \includegraphics[width = 0.3 \textwidth]{images/pot_case36.png}
-        \caption{Potential of spacecraft and surroundings with P-E and without P-E. Figure on the left displays difference between case 1 and 4. Middle figure displays difference between case 2 and 5. Rightmost figure displays difference between case 3 and 6.}
+        \caption{Potential of spacecraft and surroundings with P-E and without P-E.
+		Figure on the left displays difference between case 1 and 4. Middle figure
+		displays difference between case 2 and 5. Rightmost figure displays difference between case 3 and 6.}
     \end{figure}
 
 
@@ -57,11 +78,15 @@ Need plot
 
 \subsubsection{Case 2 vs case 5}
 
-With the flow of emmited electrons in the negative x direction we would expect a rise in electron density around the left probe. This can be seen in the potential of this probe where there is a 5.4$%$ drop in the potential of this probe compared to no emitted electrons. On the right probe we have a small rise in potential of 3.3$%$. With no emitted electrons on this side of the satelite the rise in potential can be explained by looking at the increase in ion density as seen in figure (need ref). In the satelite we have a potential rise of 28$%$. So the change in potential in the probes are small compared to the change in the satelite.
+With the flow of emmited electrons in the negative x direction we would expect a rise in electron density around the left probe.
+This can be seen in the potential of this probe where there is a 5.4\% drop in the potential of this probe compared to no emitted
+electrons. On the right probe we have a small rise in potential of 3.3\%. With no emitted electrons on this side of the satelite the rise in
+potential can be explained by looking at the increase in ion density as seen in figure (need ref).
+In the satelite we have a potential rise of 28\%. So the change in potential in the probes are small compared to the change in the satelite.
 
 \subsubsection{Case 3 vs case 6}
 
-A rather large drop in potential of 12$%$ on both probes. Potential rise of 26$%$ over the satelite.
+A rather large drop in potential of \( 12\)\% on both probes. Potential rise of \(26\)\% over the satelite.
 
 
 
