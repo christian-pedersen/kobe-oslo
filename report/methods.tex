@@ -38,13 +38,13 @@ The theory is based on thin-sheath approximation, so if SC size is much larger t
     \hline
      & Without flow & With flow  \\ \hline
      Without Photon emission & -0.893   & -0.792 \\ \hline
-     With Photon emission & -0.718 & -0.662 \\ 
+     With Photon emission & -0.718 & -0.662 \\
     \hline
     \end{tabular}
 \end{center}
 
 There is a difference between the theoretical and numerical potential because $\lambda_D$ is not much
-smaller then the length of the satelite, which is an assumption in the thin sheeth approximation. 
+smaller then the length of the satelite, which is an assumption in the thin sheeth approximation.
 From these calculations we can, however, expect the potential over the spacecraft to rise
 in the cases where we have photon emission.
 
@@ -68,10 +68,23 @@ We wish to simulate the effects of Photon emmited electrons in different test ca
 
 So test case 1-4, 2-5, and 3-6 are the ``same'' cases exept that we run the simulation with and without
 photon emission to compare the cases two and two. We define 3 geometric objects, the spacecraft itself
-and two probes. In all cases the $B$ field is in the $\vec e_z$ direction.
+and two probes see fig \ref{geometric setup}. In all cases the $B$ field is in the $\vec e_z$ direction.
 
 \begin{figure}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation1.png}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation2-2.png}
         \caption{Reseach about spacecraft and surroundings without P-E and without.Left figure is no P-E simulation cases.Right figure is P-E simulation cases.}
+        \label{geometric setup}
     \end{figure}
+
+	\begin{table}
+		\centering
+	    \begin{tabular}{ | l | l | l| l| l | l | l |}
+	    \hline
+		Stepsize & Timestep & Density &\(|B|\) & \(T_e\) & \(T_i\) & N\(_x\)\\
+		\hline
+		\(1.0\)cm & \(5\text{E}-10\)s & \(1.0\text{E}5\)kg/cm\(^3\) &  \(50\text{E}-6\) T & \(3000\)K & \(1500\)K  & \(128\)\\
+	    \hline
+	    \end{tabular}
+		\caption{Input parameters in EMSES}
+	\end{table}
