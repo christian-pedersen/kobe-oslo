@@ -33,7 +33,6 @@
 
 	Figure~\ref{fig:emph} shows the measured potential at case \(6\).
 
-
 \subsection{Photoemmision paths}
 
 	The electrons emmited from the spacecraft due to the photoelectric effect, have a kinetic
@@ -54,6 +53,23 @@
 		of the spacecraft along the \(x-\)direction. (NOTE, should have axis labels, and domain length.)}
 		\label{fig:trajectories}
 	\end{figure}
+
+\subsection{Accumulated Photoelectrons on Langmuir Probes}
+
+In the simulations both electrons and photoelectrons are absorbed by the probes. Table~\ref{tab:elec_current} shows the current
+of both regular electrons, as well as photoelectrons, interacting with the probes.
+The photoelectrons are emmited on the left side of the spacecraft and we see a larger current of
+photoelectrons here. The current caused by the photoemmision is \(10-100\) smaller than the current
+from the electrons in the plasma.
+
+\begin{figure}[h]
+	\includegraphics[width = 0.45\textwidth]{images/caliculation_of_electron_current}
+	\includegraphics[width = 0.45\textwidth]{images/caliculation_of_PE_current}
+	\caption{The left table shows the electron current hitting the inserted probes at
+	for the simulated cases \(1-6\). On the table to the right the photoelectrons hitting the probes are shown.
+	The photoelectron current is smaller than the electron current from the plasma, varying from \(10-100\) times smaller.}
+	\label{tab:elec_current}
+\end{figure}
 
 \subsection{Potential difference with P-E and no P-E}
 
@@ -86,7 +102,7 @@ The potential drop comparing the two cases is 10\%. The potential rise over the 
 With the flow of emmited electrons in the negative x direction we would expect a rise in electron density around the left probe.
 This can be seen in figure \ref{fig:pot_case25} where we see a 5.4\% drop in the potential of this probe compared to case 5 with no emitted
 electrons. On the right probe we have a small rise in the potential of 3.3\%. With no emitted electrons on this side of the satelite the rise in
-potential can be explained by looking at the increase in ion density as seen in figure (need ref).
+potential can be explained by looking at the increase in ion density as seen in figure \ref{wake}.
 In the satelite we have a potential rise of 28\%. So the change in potential in the probes are small compared to the change in the satelite.
 
 \subsubsection{Case 3 vs case 6}
@@ -99,13 +115,13 @@ In the satelite we have a potential rise of 28\%. So the change in potential in 
 A rather large drop in potential of \( 12\)\% on both probes. Potential rise of \(26\)\% over the satelite.
 
 \subsection{Wake plots}
-
-A rather large drop in potential of 12\% on both probes. Potential rise of 26\% over the satelite.
-
+	The spacecraft is moving relative to the plasma flow, this causes a wake to be formed in the vicinity of the craft.
+ 	Figures~\ref{fig:wake} illustrates the flow in case \(1,2\) and \(3\).
 
     \begin{figure}
         \includegraphics[width = 0.3 \textwidth]{images/ion_density_case1}
         \includegraphics[width = 0.3 \textwidth]{images/ion_density_x-z_case2}
 	\includegraphics[width = 0.3 \textwidth]{images/ion_density_x-y_case3}
         \caption{Ion density of spacecraft and surroundings without P-E Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
+		\label{fig:wake}
     \end{figure}
