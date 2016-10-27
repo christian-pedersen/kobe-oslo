@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  26 OCT 2016 11:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  27 OCT 2016 05:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,41 +732,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
-)
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-
-
-Package natbib Warning: The `cite' package should not be used
-(natbib)                with natbib. Use option `sort' instead.
-
-\bibhang=\skip64
-\bibsep=\skip65
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count133
-) (./Debye_Report.aux)
+(./Debye_Report.aux)
 \openout1 = `Debye_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Info: Redefining \microtypecontext on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -788,16 +771,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
+\scratchcounter=\count133
 \scratchdimen=\dimen157
 \scratchbox=\box31
-\nofMPsegments=\count135
-\nofMParguments=\count136
+\nofMPsegments=\count134
+\nofMParguments=\count135
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count137
+\MPscratchCnt=\count136
 \MPscratchDim=\dimen158
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
 \everyMPtoPDFconversion=\toks28
 )
 \AtBeginShipoutBox=\box32
@@ -809,7 +792,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -817,11 +800,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count140
+\c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./Debye_Report.out) (./Debye_Report.out)
 \@outlinefile=\write3
@@ -861,40 +844,72 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/case6_jph_paths.png, id=52, 1422.31375pt x 838.13126pt>
+
+LaTeX Warning: Reference `fig:trajectories' on page 2 undefined on input line 2
+8.
+
+
+LaTeX Warning: Reference `sec:acc_emmited' on page 2 undefined on input line 30
+.
+
+<images/case6_jph_paths.png, id=56, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths.png Graphic file (type png)
 
 <use images/case6_jph_paths.png>
-Package pdftex.def Info: images/case6_jph_paths.png used on input line 34.
+Package pdftex.def Info: images/case6_jph_paths.png used on input line 35.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/case6_jph_paths_2.png, id=53, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths_2.png, id=57, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths_2.png Graphic file (type png)
 
 <use images/case6_jph_paths_2.png>
-Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 35.
+Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 36.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
-) (./discussion.tex) (./conclusion.tex)
-No file Debye_Report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-[2 <./images/case6_jph_paths.png (PNG copy)> <./images/case6_jph_paths_2.png (P
-NG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (./Debye_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+
+<images/pot_case25.png, id=58, 2034.60126pt x 1102.1175pt>
+File: images/pot_case25.png Graphic file (type png)
+
+<use images/pot_case25.png>
+Package pdftex.def Info: images/pot_case25.png used on input line 49.
+(pdftex.def)             Requested size: 125.47794pt x 67.95723pt.
+
+<images/pot_case36.png, id=59, 2034.60126pt x 1102.1175pt>
+File: images/pot_case36.png Graphic file (type png)
+
+<use images/pot_case36.png>
+Package pdftex.def Info: images/pot_case36.png used on input line 50.
+(pdftex.def)             Requested size: 125.47794pt x 67.95723pt.
+) (./discussion.tex) (./conclusion.tex
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [2 <./images/case6_jph_paths.png (PNG copy)> <./images/case6_jph_paths_2.png (
+PNG copy)>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+[3 <./images/pot_case25.png (PNG copy)> <./images/pot_case36.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+
+(./Debye_Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 377017C2AB622ABC4A6BF5F485263C46;529.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+(rerunfilecheck)             Checksum: 642AD0B100262AD565B9BE7EBAE25451;639.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 12001 strings out of 493304
- 187075 string characters out of 6139871
- 365314 words of memory out of 5000000
- 15210 multiletter control sequences out of 15000+600000
- 15947 words of font info for 65 fonts, out of 8000000 for 9000
+ 11626 strings out of 493304
+ 182576 string characters out of 6139871
+ 359854 words of memory out of 5000000
+ 14824 multiletter control sequences out of 15000+600000
+ 16304 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,11n,54p,461b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,54p,811b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -902,12 +917,13 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on Debye_Report.pdf (2 pages, 248210 bytes).
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on Debye_Report.pdf (3 pages, 414293 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 17491 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 17509 words of extra memory for PDF output out of 20736 (max. 10000000)
 
