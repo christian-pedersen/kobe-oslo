@@ -1967,10 +1967,11 @@
     <bcf:citekey order="1">trove.nla.gov.au/work/21680840</bcf:citekey>
     <bcf:citekey order="2">fennell2001spacecraft</bcf:citekey>
     <bcf:citekey order="3">norSat</bcf:citekey>
-    <bcf:citekey order="4">hastings1995review</bcf:citekey>
-    <bcf:citekey order="5">miyake_plasma_2013</bcf:citekey>
-    <bcf:citekey order="6">birdsall2004plasma</bcf:citekey>
-    <bcf:citekey order="7">nakashima_ohhelp:_2009</bcf:citekey>
+    <bcf:citekey order="4">norSat</bcf:citekey>
+    <bcf:citekey order="5">hastings1995review</bcf:citekey>
+    <bcf:citekey order="6">miyake_plasma_2013</bcf:citekey>
+    <bcf:citekey order="7">birdsall2004plasma</bcf:citekey>
+    <bcf:citekey order="8">nakashima_ohhelp:_2009</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nyt">
   <bcf:sorting>

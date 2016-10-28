@@ -15,36 +15,27 @@ worse affects might occur, and in this case the charged particles
 can penetrate deep inside the spacecrafts components resulting in so called internal charging \citep{fennell2001spacecraft}.
 
 Charging on the spacecraft can be simulated numerically. Numerous codes have been developed
-to explain the behaviour of particles around the spacecraft as well as their interactions.
-Nevertheless, there still remains many questions since the numerical simulations are only approximations
-of real conditions. Although the numerical approach has given good solutions to various applications
-such as spaceflight missions. Efforts are made to prove the reliability of a well before launch into space.
-One of these efforts is simulating the environment where the satellite will be placed during its mission.
-Many parameters are taken into account with respect to its effect on the spacecraft.
-The results of the simulations can be a significant point in the decisions made for the spaceflight
-mission. This is one of reasons why numerical methods are the primary interest for this study.
+to explain the behaviour of particles around the spacecraft as well as its interaction.
+Nevertheless, it still remains many questions since the numerical simulation is only an approximation
+of the real condition. However, the numerical approach has given good solutions to various applications
+such as spaceflight missions. The reliability of spacecraft has been proved well before launch into space.
+One of these effort is simulating the environment where the satellite will be placed during its mission.
+Many parameters has been taking into account with respect to its effect on the spacecraft.
+The results of the simulation can be significant point for decision maker for the spaceflight
+mission. This is one of reasons why this simulation is the primary interest for this study.
 
 In this study, we attempt to simulate a spacecraft named Norsat-1 which will be placed in
-<<<<<<< HEAD
-Low Earth Orbit (LEO) environment around \(600\) km altitude and polar inclination around \(98.8^\circ\).
-This spacecraft is planned to launch in \(2017\)\citep{norSat}. Our simulation was of a smaller spacecraft with dimensions
-\(10,10,10\)cm.
-This satellite
-has been equipped with two probes. It is interesting since this satellite will pass over
-the auroral region more frequently. In this region  the satellite will be exposed not only to
-=======
 Low Earth Orbit (LEO) environment around 600 km altitude and polar inclination around \(98.8^\circ\).
 Initially this satellite will be launched in early 2016
-\citep{norSat}. This satellite
-has been equipped with two probes. This mission is of interest since this satellite will pass over
-the auroral region more frequently. In this region the satellite will be exposed not only to
->>>>>>> 4a34ae8744bc6b052df4605d7c44ab595f2681b6
+(https://directory.eopor~ tal.org/web/eoportal/satellite-missions/n/norsat-1). This satellite
+has been equipped with two probes. It is interesting since this satellite will pass over
+the auroral region more frequently. In this region  the satellite will be exposed not only to
 rapid variation of the thermal component of the ionosphere \citep{hastings1995review}, but also to high
-energy particles from the solar wind, large changes in the direction of the magnetic field, etc.
+energy particles from the solar wind.
 
 Since we use the EMSES (Electro Magnetic Spacecraft Environment Simulator) code \citep{miyake_plasma_2013} in the
 simulation, it is important to point out that only the effects of background plasma as
-well as the photoelectrons from the sunlight are taken into account. The simulations
-are done in several cases and each case has been grouped into two, i.e. plasma
+well as the photoelectrons from the sunlight are taken into account. The simulation
+has been done into several cases and each case has been grouped into two, i.e. plasma
 flows with and without the photoemission effects on the spacecraft as well as the probes.
 All results will be presented in detail in the specific section in this report.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  28 OCT 2016 04:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.25)  28 OCT 2016 04:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,22 +1057,19 @@ Package microtype Info: Loading generic settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./methods.tex
-Underfull \vbox (badness 7649) has occurred while \output is active []
-
- [2]
+(./methods.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<images/picture_simulation1.png, id=98, 494.59781pt x 344.03531pt>
+<images/picture_simulation1.png, id=100, 494.59781pt x 344.03531pt>
 File: images/picture_simulation1.png Graphic file (type png)
 
 <use images/picture_simulation1.png>
 Package pdftex.def Info: images/picture_simulation1.png used on input line 75.
 (pdftex.def)             Requested size: 209.12778pt x 145.46501pt.
 
-<images/picture_simulation2-2.png, id=99, 628.59843pt x 440.39531pt>
+<images/picture_simulation2-2.png, id=101, 628.59843pt x 440.39531pt>
 File: images/picture_simulation2-2.png Graphic file (type png)
 
 <use images/picture_simulation2-2.png>
@@ -1085,21 +1082,21 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 75--77
  []
 
 ) (./results.tex [3]
-<images/case6_jph_paths.png, id=109, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths.png, id=111, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths.png Graphic file (type png)
 
 <use images/case6_jph_paths.png>
 Package pdftex.def Info: images/case6_jph_paths.png used on input line 12.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/case6_jph_paths_2.png, id=110, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths_2.png, id=112, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths_2.png Graphic file (type png)
 
 <use images/case6_jph_paths_2.png>
 Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 13.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/caliculation_of_electron_current.png, id=112, 182.93344pt x 95.6072pt>
+<images/caliculation_of_electron_current.png, id=114, 182.93344pt x 95.6072pt>
 File: images/caliculation_of_electron_current.png Graphic file (type png)
 
 <use images/caliculation_of_electron_current.png>
@@ -1107,7 +1104,7 @@ Package pdftex.def Info: images/caliculation_of_electron_current.png used on in
 put line 32.
 (pdftex.def)             Requested size: 188.21371pt x 98.37146pt.
 
-<images/caliculation_of_PE_current.png, id=113, 201.75375pt x 54.9553pt>
+<images/caliculation_of_PE_current.png, id=115, 201.75375pt x 54.9553pt>
 File: images/caliculation_of_PE_current.png Graphic file (type png)
 
 <use images/caliculation_of_PE_current.png>
@@ -1121,91 +1118,91 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [4 <./images/picture_simulation1.png> <./images/picture_simulation2-2.png> <./i
 mages/case6_jph_paths.png (PNG copy)> <./images/case6_jph_paths_2.png (PNG copy
 )>] [5 <./images/caliculation_of_electron_current.png> <./images/caliculation_o
-f_PE_current.png>] <images/emph.pdf, id=132, 578.16pt x 433.62pt>
+f_PE_current.png>] <images/emph.pdf, id=134, 578.16pt x 433.62pt>
 File: images/emph.pdf Graphic file (type pdf)
 
 <use images/emph.pdf>
-Package pdftex.def Info: images/emph.pdf used on input line 88.
+Package pdftex.def Info: images/emph.pdf used on input line 86.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
- <images/case1.png, id=136, 481.8pt x 391.4625pt>
+ <images/case1.png, id=138, 481.8pt x 391.4625pt>
 File: images/case1.png Graphic file (type png)
 
 <use images/case1.png>
-Package pdftex.def Info: images/case1.png used on input line 104.
+Package pdftex.def Info: images/case1.png used on input line 102.
 (pdftex.def)             Requested size: 209.12778pt x 169.91446pt.
- <images/case2.png, id=137, 481.8pt x 391.4625pt>
+ <images/case2.png, id=139, 481.8pt x 391.4625pt>
 File: images/case2.png Graphic file (type png)
 
 <use images/case2.png>
-Package pdftex.def Info: images/case2.png used on input line 105.
+Package pdftex.def Info: images/case2.png used on input line 103.
 (pdftex.def)             Requested size: 209.12778pt x 169.91446pt.
- <images/case3.png, id=138, 481.8pt x 391.4625pt>
+ <images/case3.png, id=140, 481.8pt x 391.4625pt>
 File: images/case3.png Graphic file (type png)
 
 <use images/case3.png>
-Package pdftex.def Info: images/case3.png used on input line 106.
+Package pdftex.def Info: images/case3.png used on input line 104.
 (pdftex.def)             Requested size: 209.12778pt x 169.91446pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 104--108
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 102--106
 [][] []
  []
 
-<images/pot_case14.png, id=139, 670.75594pt x 361.35pt>
+<images/pot_case14.png, id=141, 670.75594pt x 361.35pt>
 File: images/pot_case14.png Graphic file (type png)
 
 <use images/pot_case14.png>
-Package pdftex.def Info: images/pot_case14.png used on input line 120.
+Package pdftex.def Info: images/pot_case14.png used on input line 118.
 (pdftex.def)             Requested size: 250.95587pt x 135.19164pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./images/emph.pdf>] [7 <./images/case1.png> <./images/case2.png> <./images
 /case3.png> <./images/pot_case14.png>]
-<images/pot_case25_new.png, id=191, 2034.60126pt x 1361.085pt>
-File: images/pot_case25_new.png Graphic file (type png)
+<images/pot_case25_new2.png, id=194, 2034.60126pt x 1361.085pt>
+File: images/pot_case25_new2.png Graphic file (type png)
 
-<use images/pot_case25_new.png>
-Package pdftex.def Info: images/pot_case25_new.png used on input line 138.
+<use images/pot_case25_new2.png>
+Package pdftex.def Info: images/pot_case25_new2.png used on input line 136.
 (pdftex.def)             Requested size: 250.95587pt x 167.87144pt.
 
-<images/pot_case36_new.png, id=194, 2034.60126pt x 1361.085pt>
-File: images/pot_case36_new.png Graphic file (type png)
+<images/pot_case36_new2.png, id=197, 2034.60126pt x 1361.085pt>
+File: images/pot_case36_new2.png Graphic file (type png)
 
-<use images/pot_case36_new.png>
-Package pdftex.def Info: images/pot_case36_new.png used on input line 153.
+<use images/pot_case36_new2.png>
+Package pdftex.def Info: images/pot_case36_new2.png used on input line 151.
 (pdftex.def)             Requested size: 250.95587pt x 167.87144pt.
 )
 Underfull \vbox (badness 7047) has occurred while \output is active []
 
- [8 <./images/pot_case25_new.png (PNG copy)>] (./discussion.tex) (./conclusion.
-tex)
-[9 <./images/pot_case36_new.png (PNG copy)>] [10]
+ [8 <./images/pot_case25_new2.png (PNG copy)>] (./discussion.tex) (./conclusion
+.tex)
+[9 <./images/pot_case36_new2.png (PNG copy)>] [10]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
  [11
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Debye_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 5B5D4C175585A65CAF142B10587315A6;934.
+(rerunfilecheck)             Checksum: D131FC091BF6B55075E0545D6F2CA8FF;935.
 Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 \openout1 = `Debye_Report.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 17082 strings out of 493304
- 278655 string characters out of 6139871
- 788851 words of memory out of 5000000
- 20113 multiletter control sequences out of 15000+600000
- 18730 words of font info for 106 fonts, out of 8000000 for 9000
+ 17097 strings out of 493304
+ 278786 string characters out of 6139871
+ 788855 words of memory out of 5000000
+ 20114 multiletter control sequences out of 15000+600000
+ 19201 words of font info for 113 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,22n,59p,1557b,1569s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1221,10 +1218,10 @@ ts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Debye_Report.pdf (11 pages, 1366981 bytes).
+Output written on Debye_Report.pdf (11 pages, 1413264 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 292 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  20146 words of extra memory for PDF output out of 20736 (max. 10000000)
 
