@@ -75,6 +75,20 @@ from the electrons in the plasma. This photoelectrons may
 	Figure~\ref{fig:emph} shows the measured potential at case \(6\). In section \ref{sec:pot_diff},  we compare
 	the cases where the flow is in the same direction to avoid having to correct for this effect.
 
+	\subsection{Wake plots}
+		The spacecraft is moving relative to the plasma flow, this causes a wake to be formed in the vicinity of the craft.
+	 	Figures~\ref{fig:wake} illustrates the flow in case \(1,2\) and \(3\). In case \(1\) the right probe is in the wake,
+		and in both the other cases the two probes aren't affected by the wake.
+
+	    \begin{figure}
+	        \includegraphics[width = 0.3 \textwidth]{images/case1}
+	        \includegraphics[width = 0.3 \textwidth]{images/case2}
+		\includegraphics[width = 0.3 \textwidth]{images/case3}
+	        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3. Each
+			grid point is \(1\)cm.}
+			\label{fig:wake}
+	    \end{figure}
+
 
 \subsection{Potential difference with P-E and no P-E}
 \label{sec:pot_diff}
@@ -107,10 +121,10 @@ The potential drop in the right probe comparing the two cases is 0.07V or 10\%. 
 \end{figure}
 
 With the flow of emitted electrons in the negative x direction we would expect a rise in electron density around the left probe.
-This can be seen in figure \ref{fig:pot_case25} where we see a 5.4\% drop in the potential of this probe compared to case 5 with no emitted
-electrons. On the right probe we have a small rise in the potential of 3.3\%. With no emitted electrons on this side of the satellite the rise in
+This can be seen in figure \ref{fig:pot_case25} where we see a 0.03V drop in the potential of this probe compared to case 5 with no emitted
+electrons. On the right probe we have a small rise in the potential of 0.02V. With no emitted electrons on this side of the satellite the rise in
 potential can be explained by looking at the increase in ion density as seen in figure \ref{fig:wake}.
-In the satellite we have a potential rise of 28\%. So the change in potential in the probes are small compared to the change in the satellite.
+In the satellite we have a potential rise of 0.16V which is a 28\% increase. So the change in potential in the probes are small compared to the change in the satellite.
 
 \subsubsection{Case 3 vs case 6}
 
@@ -121,16 +135,4 @@ In the satellite we have a potential rise of 28\%. So the change in potential in
     \label{fig:pot_case36}
 \end{figure}
 
-As we can see in figure \ref{fig:pot_case36} Here we have almost the same drop in potential over both probes of about 0.03V. However this change yields 12\% for the left probe but only 3\% for the right probe. Over the satellite we have a potential rise of 0.15V which yields a 26\% change.
-
-\subsection{Wake plots}
-	The spacecraft is moving relative to the plasma flow, this causes a wake to be formed in the vicinity of the craft.
- 	Figures~\ref{fig:wake} illustrates the flow in case \(1,2\) and \(3\).
-
-    \begin{figure}
-        \includegraphics[width = 0.3 \textwidth]{images/ion_density_case1}
-        \includegraphics[width = 0.3 \textwidth]{images/ion_density_x-z_case2}
-	\includegraphics[width = 0.3 \textwidth]{images/ion_density_x-y_case3}
-        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3.}
-		\label{fig:wake}
-    \end{figure}
+As we can see in figure \ref{fig:pot_case36} we have almost the same change in potential over both probes of about 0.03V. However this change yields a 12\% decrease in potential for the left probe but a mere 3\% increase for the right probe. Over the satellite we have a potential rise of 0.15V which yields a 26\% change.
