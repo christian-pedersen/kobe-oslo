@@ -1,4 +1,4 @@
-\subsection{Photoemission paths}
+\subsection{Photoelectron Trajectories}
 
 	The electrons emitted from the spacecraft due to the photoelectric effect, have a kinetic
 	energy corresponding to a Maxwellian distribution with a temperature of \(T_{ph} =  3.8481\cdot 10^{4} \text{K}\).
@@ -38,13 +38,31 @@ from the electrons in the plasma. This photoelectrons may
 \end{figure}
 
 
+\subsection{Spacecraft Potential}
+\begin{table}
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+     & Without flow & With flow  \\ \hline
+     Without Photon emission & -0.893   & -0.792 \\ \hline
+     With Photon emission & -0.718 & -0.662 \\
+    \hline
+    \end{tabular}
+	\caption{The potential, in \(V\), of the spacecraft computed with the thin sheet approximation, \ref{sec:theo_calc}.}
+\end{center}
+\end{table}
+
+There is a difference between the theoretical and numerical potential, see section \ref{sec:pot_diff} for the numerical results, because $\lambda_D$ is not much
+smaller then the length of the satellite, which is an assumption in the thin sheet approximation.
+From these calculations we can, however, expect the potential over the spacecraft to rise
+in the cases where we have photon emission.
 
 \subsection{Induced electric current}
 	%Redo this part if necessary
 	The plasma is flowing in in relation to the coordinate system in the simulations.
 	Due to this an induced electrical field, \(\varepsilon\), will appear.
-	The induced electrical field will neutralize the Lorentz force.
-	Combined with the electrostatic approximation we can obtain the \(\varepsilon\)
+	The induced electrical field, \(\varepsilon\), will balance the magnetic part of the Lorentz force,  \(\vec{v}\times \vec{B}\).
+	Combined with the electrostatic approximation we can obtain the \(\varepsilon\).
 
 	\begin{equation}
 		\vec{\varepsilon} = \vec{v_D}\times \vec{B}
@@ -81,10 +99,10 @@ from the electrons in the plasma. This photoelectrons may
 		and in both the other cases the two probes aren't affected by the wake.
 
 	    \begin{figure}
-	        \includegraphics[width = 0.3 \textwidth]{images/case1}
-	        \includegraphics[width = 0.3 \textwidth]{images/case2}
-		\includegraphics[width = 0.3 \textwidth]{images/case3}
-	        \caption{Ion density of spacecraft and surroundings without P-E. Figure on the left displays case 1. Middle figure displays case 2. Rightmost figure displays case 3. Each
+	        \includegraphics[width = 0.5\textwidth]{images/case1}
+	        \includegraphics[width = 0.5\textwidth]{images/case2}
+		\includegraphics[width = 0.5\textwidth]{images/case3}
+	        \caption{Ion density of spacecraft and surroundings without P-E. The figure on the top-left displays case 1. The top-right figure displays case 2 and the bottom-left figure displays case 3. Each
 			grid point is \(1\)cm.}
 			\label{fig:wake}
 	    \end{figure}
@@ -135,6 +153,6 @@ In the satellite we have a potential rise of 0.16V which is a 28\% increase. So 
     \label{fig:pot_case36}
 \end{figure}
 
-As we can see in figure \ref{fig:pot_case36} we have almost the same change in potential over 
+As we can see in figure \ref{fig:pot_case36} we have almost the same change in potential over
 both probes of about 0.03V. However this change yields a 12\% decrease in potential for the left
 probe but a mere 3\% increase for the right probe. Over the satellite we have a potential rise of 0.15V which yields a 26\% change.
