@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  28 OCT 2016 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  28 OCT 2016 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ LaTeX Warning: Citation 'nakashima_ohhelp:_2009' on page 2 undefined on input l
 ine 8.
 
 
-Underfull \vbox (badness 7649) has occurred while \output is active []
+Underfull \vbox (badness 2608) has occurred while \output is active []
 
  [2]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -1256,7 +1256,7 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Debye_Report.pdf (9 pages, 916383 bytes).
+Output written on Debye_Report.pdf (9 pages, 916505 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
