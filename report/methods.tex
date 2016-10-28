@@ -9,6 +9,7 @@ see \citep{nakashima_ohhelp:_2009}. Parameters are choosen to simulate the sun a
 
 \subsection{Theoretical calculations}
 
+In order to get the theoretical potential of the spacecraft($\Phi_d$), we need the ion, electron and photoelectron current (\(I_e\), )
 \begin{equation}
 \begin{split}
  I_i = &
@@ -21,6 +22,7 @@ see \citep{nakashima_ohhelp:_2009}. Parameters are choosen to simulate the sun a
 \end{split}
 \label{thin sheet potential}
 \end{equation}
+where \(A\) is the surface area of the spacecraft, |q| is elementary charge, \(n_\infinity\) is the plasma density, \(k\) is Boltzmann's constant, \(T_i\)/\(T_e\) is the temperature of ion/electron, \(M_i\)/\(M_e\) is the mass of ion/electron and \(J_s\) is the photoelectron density.
 Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for $\Phi_d$, we can get
 \begin{equation}
 \begin{split}
@@ -30,8 +32,8 @@ Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for $\Phi_d$, we 
 \end{split}
 \label{thin sheet potential 2}
 \end{equation}
-
-The theory is based on thin-sheath approximation, so if spacecraft size is much larger than Debye length of the photoelectron, we can use it.\\
+where \(T_{ph}\) is the temperature of photoelectron.
+The theory is based on thin-sheath approximation, so if spacecraft size is much larger than the Debye length of plasma, we can use it.\\
 
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
