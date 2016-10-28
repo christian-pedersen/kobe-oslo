@@ -1,11 +1,11 @@
 \subsection{Numerical methods}
 
-To solve the problem numerically we use the EMSES code. EMSES uses the standard PIC method for plasma simulations.
+To solve the problem numerically we use the EMSES code. EMSES uses the standard PIC method for plasma simulations \citep{birdsall2004plasma}.
 In the code we are able to define a spacecraft body, and the code then calculates the potential on that body using the capacitance matrix method.
-Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the poisson's equation
+Although EMSES has the capability to do a full electromagnetic calculation, we have opted to use the Poisson's equation
 solver for electrostatic problems. In the EMSES system we can define sunlit surfaces based upon an angle, and a current
 density. Sunlit surfaces will then emit electrons based upon a energy distribution. For a complete description of EMSES' capabilities
-see \citep{nakashima_ohhelp:_2009} Parameters are choosen to simulate the sun at the earth, but with an enhanced flux to emphasize the effect in question.
+see \citep{nakashima_ohhelp:_2009}. Parameters are choosen to simulate the sun at the earth, but with an enhanced flux to emphasize the effect in question.
 
 \subsection{Theoretical calculations}
 
@@ -31,7 +31,7 @@ Submitting these equations to \(I_i+I_e+I_{ph}=0\) and solving for $\Phi_d$, we 
 \label{thin sheet potential 2}
 \end{equation}
 
-The theory is based on thin-sheath approximation, so if SC size is much larger than Debye length of the photoelectron, we can use it.\\
+The theory is based on thin-sheath approximation, so if spacecraft size is much larger than Debye length of the photoelectron, we can use it.\\
 
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
@@ -85,7 +85,5 @@ and two probes. In all cases the $B$ field is in the $\vec e_z$ direction.
 \begin{figure}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation1.png}
         \includegraphics[width = 0.5 \textwidth]{images/picture_simulation2-2.png}
-        \caption{Research about spacecraft and surroundings without P-E and without.Left figure is no P-E simulation cases.Right figure is P-E simulation cases.}
+        \caption{Geometry of spacecraft and surroundings without P-E and without. Left figure is no P-E simulation cases.Right figure is P-E simulation cases.}
     \end{figure}
-
-
