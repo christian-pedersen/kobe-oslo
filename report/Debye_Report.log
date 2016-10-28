@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.27)  28 OCT 2016 05:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.27)  28 OCT 2016 05:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,21 +1054,21 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./Debye_Report.aux)
 \openout1 = `Debye_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Info: Redefining \microtypecontext on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 71.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1111,7 +1111,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 143.
 )
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1121,9 +1121,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (./Debye_Report.out) (./Debye_Report.out)
 \@outlinefile=\write4
@@ -1137,8 +1137,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Debye_Report.bbl' found.
  (./Debye_Report.bbl)
-Package biblatex Info: Reference section=0 on input line 69.
-Package biblatex Info: Reference segment=0 on input line 69.
+Package biblatex Info: Reference section=0 on input line 71.
+Package biblatex Info: Reference segment=0 on input line 71.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1178,25 +1178,19 @@ LaTeX Warning: Citation 'birdsall2004plasma' on page 2 undefined on input line
 LaTeX Warning: Citation 'nakashima_ohhelp:_2009' on page 2 undefined on input l
 ine 8.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/picture_simulation1.png, id=77, 494.59781pt x 344.03531pt>
+<images/picture_simulation1.png, id=82, 494.59781pt x 344.03531pt>
 File: images/picture_simulation1.png Graphic file (type png)
 
 <use images/picture_simulation1.png>
 Package pdftex.def Info: images/picture_simulation1.png used on input line 79.
 (pdftex.def)             Requested size: 418.25555pt x 290.93002pt.
 
-<images/picture_simulation2-2.png, id=78, 628.59843pt x 440.39531pt>
+<images/picture_simulation2-2.png, id=83, 628.59843pt x 440.39531pt>
 File: images/picture_simulation2-2.png Graphic file (type png)
 
 <use images/picture_simulation2-2.png>
@@ -1207,23 +1201,26 @@ Package pdftex.def Info: images/picture_simulation2-2.png used on input line 81
 
 LaTeX Warning: Float too large for page by 33.15695pt on input line 83.
 
-) (./results.tex [3] [4 <./images/picture_simulation1.png> <./images/picture_si
-mulation2-2.png>]
-<images/case6_jph_paths.png, id=97, 1422.31375pt x 838.13126pt>
+) (./results.tex
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [3]
+[4 <./images/picture_simulation1.png> <./images/picture_simulation2-2.png>]
+<images/case6_jph_paths.png, id=98, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths.png Graphic file (type png)
 
 <use images/case6_jph_paths.png>
 Package pdftex.def Info: images/case6_jph_paths.png used on input line 12.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/case6_jph_paths_2.png, id=98, 1422.31375pt x 838.13126pt>
+<images/case6_jph_paths_2.png, id=99, 1422.31375pt x 838.13126pt>
 File: images/case6_jph_paths_2.png Graphic file (type png)
 
 <use images/case6_jph_paths_2.png>
 Package pdftex.def Info: images/case6_jph_paths_2.png used on input line 13.
 (pdftex.def)             Requested size: 204.94751pt x 120.76498pt.
 
-<images/caliculation_of_electron_current.png, id=100, 182.93344pt x 95.6072pt>
+<images/caliculation_of_electron_current.png, id=101, 182.93344pt x 95.6072pt>
 File: images/caliculation_of_electron_current.png Graphic file (type png)
 
 <use images/caliculation_of_electron_current.png>
@@ -1231,7 +1228,7 @@ Package pdftex.def Info: images/caliculation_of_electron_current.png used on in
 put line 32.
 (pdftex.def)             Requested size: 188.21371pt x 98.37146pt.
 
-<images/caliculation_of_PE_current.png, id=101, 201.75375pt x 54.9553pt>
+<images/caliculation_of_PE_current.png, id=102, 201.75375pt x 54.9553pt>
 File: images/caliculation_of_PE_current.png Graphic file (type png)
 
 <use images/caliculation_of_PE_current.png>
@@ -1251,19 +1248,19 @@ Package pdftex.def Info: images/emph.pdf used on input line 86.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
  [6 <./images/caliculation_of_electron_current.png> <./images/caliculation_of_P
 E_current.png>] [7 <./images/emph.pdf>]
-<images/case1.png, id=168, 481.8pt x 391.4625pt>
+<images/case1.png, id=169, 481.8pt x 391.4625pt>
 File: images/case1.png Graphic file (type png)
  <use images/case1.png>
 Package pdftex.def Info: images/case1.png used on input line 102.
 (pdftex.def)             Requested size: 209.12778pt x 169.91446pt.
 
-<images/case2.png, id=169, 481.8pt x 391.4625pt>
+<images/case2.png, id=170, 481.8pt x 391.4625pt>
 File: images/case2.png Graphic file (type png)
  <use images/case2.png>
 Package pdftex.def Info: images/case2.png used on input line 103.
 (pdftex.def)             Requested size: 209.12778pt x 169.91446pt.
 
-<images/case3.png, id=170, 481.8pt x 391.4625pt>
+<images/case3.png, id=171, 481.8pt x 391.4625pt>
 File: images/case3.png Graphic file (type png)
  <use images/case3.png>
 Package pdftex.def Info: images/case3.png used on input line 104.
@@ -1273,7 +1270,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 102--106
 [][] []
  []
 
-<images/pot_case14.png, id=171, 670.75594pt x 361.35pt>
+<images/pot_case14.png, id=172, 670.75594pt x 361.35pt>
 File: images/pot_case14.png Graphic file (type png)
 
 <use images/pot_case14.png>
@@ -1286,28 +1283,33 @@ File: images/pot_case25_new2.png Graphic file (type png)
 <use images/pot_case25_new2.png>
 Package pdftex.def Info: images/pot_case25_new2.png used on input line 136.
 (pdftex.def)             Requested size: 250.95587pt x 167.87144pt.
- [9 <./images/pot_case14.png> <./images/pot_case25_new2.png (PNG copy)>]
-<images/pot_case36_new2.png, id=190, 2034.60126pt x 1361.085pt>
+
+<images/pot_case36_new2.png, id=183, 2034.60126pt x 1361.085pt>
 File: images/pot_case36_new2.png Graphic file (type png)
 
 <use images/pot_case36_new2.png>
 Package pdftex.def Info: images/pot_case36_new2.png used on input line 151.
 (pdftex.def)             Requested size: 250.95587pt x 167.87144pt.
-) (./discussion.tex
+ [9 <./images/pot_case14.png> <./images/pot_case25_new2.png (PNG copy)>]) (./di
+scussion.tex
+
+LaTeX Warning: Citation 'miyake_plasma_2013' on page 10 undefined on input line
+ 9.
+
 
 LaTeX Warning: Citation 'ergun_spacecraft_2010' on page 10 undefined on input l
-ine 12.
+ine 13.
 
 ) [10 <./images/pot_case36_new2.png (PNG copy)>] (./conclusion.tex)
 
-LaTeX Warning: Empty bibliography on input line 99.
+LaTeX Warning: Empty bibliography on input line 101.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
 [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./Debye_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `Debye_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D131FC091BF6B55075E0545D6F2CA8FF;935.
 
@@ -1322,16 +1324,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'Debye_Report.run.xml'.
 \openout1 = `Debye_Report.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 17728 strings out of 493029
- 292608 string characters out of 6136233
- 834376 words of memory out of 5000000
- 20866 multiletter control sequences out of 15000+600000
- 17285 words of font info for 96 fonts, out of 8000000 for 9000
+ 17749 strings out of 493029
+ 292813 string characters out of 6136233
+ 832430 words of memory out of 5000000
+ 20883 multiletter control sequences out of 15000+600000
+ 17387 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,22n,66p,1157b,1577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,66p,1157b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1343,7 +1345,7 @@ public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb>
-Output written on Debye_Report.pdf (11 pages, 1375387 bytes).
+Output written on Debye_Report.pdf (11 pages, 1375111 bytes).
 PDF statistics:
  251 PDF objects out of 1000 (max. 8388607)
  180 compressed objects within 2 object streams

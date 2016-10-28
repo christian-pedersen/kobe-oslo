@@ -2057,7 +2057,8 @@
     <bcf:citekey order="5">miyake_plasma_2013</bcf:citekey>
     <bcf:citekey order="6">birdsall2004plasma</bcf:citekey>
     <bcf:citekey order="7">nakashima_ohhelp:_2009</bcf:citekey>
-    <bcf:citekey order="8">ergun_spacecraft_2010</bcf:citekey>
+    <bcf:citekey order="8">miyake_plasma_2013</bcf:citekey>
+    <bcf:citekey order="9">ergun_spacecraft_2010</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>
