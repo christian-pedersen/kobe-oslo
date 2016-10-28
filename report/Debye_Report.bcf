@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<bcf:controlfile version="3.0" xmlns:bcf="https://sourceforge.net/projects/biblatex">
-=======
 <bcf:controlfile version="2.7" xmlns:bcf="https://sourceforge.net/projects/biblatex">
->>>>>>> 99796c1be5a5a6bdd16fc4b418b587c7a49d6740
-=======
-<bcf:controlfile version="2.5" xmlns:bcf="https://sourceforge.net/projects/biblatex">
->>>>>>> 484242cc4554fe3f0e8ebc16cadb2588caf37d16
-=======
-<bcf:controlfile version="2.7" xmlns:bcf="https://sourceforge.net/projects/biblatex">
->>>>>>> 3314386212791b3ced4ebf4fae7c007af28e97b0
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -220,233 +208,8 @@
       <bcf:value>1</bcf:value>
     </bcf:option>
   </bcf:options>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <!-- BIBLATEX OPTION SCOPE -->
   <bcf:optionscope type="GLOBAL">
-<<<<<<< HEAD
-    <bcf:option datatype="xml">datamodel</bcf:option>
-    <bcf:option datatype="xml">labelalphatemplate</bcf:option>
-    <bcf:option datatype="xml">inheritance</bcf:option>
-    <bcf:option datatype="xml">sortingnamekey</bcf:option>
-    <bcf:option datatype="xml">sortscheme</bcf:option>
-    <bcf:option datatype="xml">labelnamespec</bcf:option>
-    <bcf:option datatype="xml">labeltitlespec</bcf:option>
-    <bcf:option datatype="xml">labeldatespec</bcf:option>
-    <bcf:option datatype="string">controlversion</bcf:option>
-    <bcf:option datatype="string">alphaothers</bcf:option>
-    <bcf:option datatype="string">sortalphaothers</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="string">backend</bcf:option>
-    <bcf:option datatype="string">texencoding</bcf:option>
-    <bcf:option datatype="string">bibencoding</bcf:option>
-    <bcf:option datatype="string">sorting</bcf:option>
-    <bcf:option datatype="string">sortlos</bcf:option>
-    <bcf:option datatype="string">sortlocale</bcf:option>
-    <bcf:option datatype="string">language</bcf:option>
-    <bcf:option datatype="string">babel</bcf:option>
-    <bcf:option datatype="string">autolang</bcf:option>
-    <bcf:option datatype="string">backrefsetstyle</bcf:option>
-    <bcf:option datatype="string">block</bcf:option>
-    <bcf:option datatype="string">date</bcf:option>
-    <bcf:option datatype="string">datelabel</bcf:option>
-    <bcf:option datatype="string">urldate</bcf:option>
-    <bcf:option datatype="string">eventdate</bcf:option>
-    <bcf:option datatype="string">origdate</bcf:option>
-    <bcf:option datatype="string">alldates</bcf:option>
-    <bcf:option datatype="string">autocite</bcf:option>
-    <bcf:option datatype="string">notetype</bcf:option>
-    <bcf:option datatype="string">refsection</bcf:option>
-    <bcf:option datatype="string">refsegment</bcf:option>
-    <bcf:option datatype="string">citereset</bcf:option>
-    <bcf:option datatype="string">backrefstyle</bcf:option>
-    <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="boolean">useafterword</bcf:option>
-    <bcf:option datatype="boolean">useannotator</bcf:option>
-    <bcf:option datatype="boolean">useauthor</bcf:option>
-    <bcf:option datatype="boolean">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean">usecommentator</bcf:option>
-    <bcf:option datatype="boolean">useeditor</bcf:option>
-    <bcf:option datatype="boolean">useeditora</bcf:option>
-    <bcf:option datatype="boolean">useeditorb</bcf:option>
-    <bcf:option datatype="boolean">useeditorc</bcf:option>
-    <bcf:option datatype="boolean">useforeword</bcf:option>
-    <bcf:option datatype="boolean">useholder</bcf:option>
-    <bcf:option datatype="boolean">useintroduction</bcf:option>
-    <bcf:option datatype="boolean">usenamea</bcf:option>
-    <bcf:option datatype="boolean">usenameb</bcf:option>
-    <bcf:option datatype="boolean">usenamec</bcf:option>
-    <bcf:option datatype="boolean">usetranslator</bcf:option>
-    <bcf:option datatype="boolean">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean">debug</bcf:option>
-    <bcf:option datatype="boolean">loadfiles</bcf:option>
-    <bcf:option datatype="boolean">safeinputenc</bcf:option>
-    <bcf:option datatype="boolean">sortcase</bcf:option>
-    <bcf:option datatype="boolean">sortupper</bcf:option>
-    <bcf:option datatype="boolean">terseinits</bcf:option>
-    <bcf:option datatype="boolean">firstinits</bcf:option>
-    <bcf:option datatype="boolean">sortfirstinits</bcf:option>
-    <bcf:option datatype="boolean">giveninits</bcf:option>
-    <bcf:option datatype="boolean">sortgiveninits</bcf:option>
-    <bcf:option datatype="boolean">abbreviate</bcf:option>
-    <bcf:option datatype="boolean">dateabbrev</bcf:option>
-    <bcf:option datatype="boolean">clearlang</bcf:option>
-    <bcf:option datatype="boolean">indexing</bcf:option>
-    <bcf:option datatype="boolean">sortcites</bcf:option>
-    <bcf:option datatype="boolean">hyperref</bcf:option>
-    <bcf:option datatype="boolean">backref</bcf:option>
-    <bcf:option datatype="boolean">pagetracker</bcf:option>
-    <bcf:option datatype="boolean">citecounter</bcf:option>
-    <bcf:option datatype="boolean">citetracker</bcf:option>
-    <bcf:option datatype="boolean">ibidtracker</bcf:option>
-    <bcf:option datatype="boolean">idemtracker</bcf:option>
-    <bcf:option datatype="boolean">opcittracker</bcf:option>
-    <bcf:option datatype="boolean">loccittracker</bcf:option>
-    <bcf:option datatype="boolean">parentracker</bcf:option>
-    <bcf:option datatype="boolean">datezeros</bcf:option>
-    <bcf:option datatype="boolean">autopunct</bcf:option>
-    <bcf:option datatype="boolean">punctfont</bcf:option>
-    <bcf:option datatype="boolean">labelnumber</bcf:option>
-    <bcf:option datatype="boolean">labelalpha</bcf:option>
-    <bcf:option datatype="boolean">labeltitle</bcf:option>
-    <bcf:option datatype="boolean">labeltitleyear</bcf:option>
-    <bcf:option datatype="boolean">labeldate</bcf:option>
-    <bcf:option datatype="boolean">labelyear</bcf:option>
-    <bcf:option datatype="boolean">uniquelist</bcf:option>
-    <bcf:option datatype="boolean">uniquename</bcf:option>
-    <bcf:option datatype="boolean">singletitle</bcf:option>
-    <bcf:option datatype="boolean">defernumbers</bcf:option>
-    <bcf:option datatype="boolean">bibwarn</bcf:option>
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="boolean">defernums</bcf:option>
-    <bcf:option datatype="boolean">isbn</bcf:option>
-    <bcf:option datatype="boolean">url</bcf:option>
-    <bcf:option datatype="boolean">doi</bcf:option>
-    <bcf:option datatype="boolean">eprint</bcf:option>
-    <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
-    <bcf:option datatype="boolean">mergedate</bcf:option>
-    <bcf:option datatype="integer">mincrossrefs</bcf:option>
-    <bcf:option datatype="integer">maxnames</bcf:option>
-    <bcf:option datatype="integer">minnames</bcf:option>
-    <bcf:option datatype="integer">maxbibnames</bcf:option>
-    <bcf:option datatype="integer">minbibnames</bcf:option>
-    <bcf:option datatype="integer">maxcitenames</bcf:option>
-    <bcf:option datatype="integer">mincitenames</bcf:option>
-    <bcf:option datatype="integer">maxitems</bcf:option>
-    <bcf:option datatype="integer">minitems</bcf:option>
-    <bcf:option datatype="integer">maxalphanames</bcf:option>
-    <bcf:option datatype="integer">minalphanames</bcf:option>
-    <bcf:option datatype="integer">maxparens</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="ENTRYTYPE">
-    <bcf:option datatype="string">alphaothers</bcf:option>
-    <bcf:option datatype="string">sortalphaothers</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="boolean">useafterword</bcf:option>
-    <bcf:option datatype="boolean">useannotator</bcf:option>
-    <bcf:option datatype="boolean">useauthor</bcf:option>
-    <bcf:option datatype="boolean">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean">usecommentator</bcf:option>
-    <bcf:option datatype="boolean">useeditor</bcf:option>
-    <bcf:option datatype="boolean">useeditora</bcf:option>
-    <bcf:option datatype="boolean">useeditorb</bcf:option>
-    <bcf:option datatype="boolean">useeditorc</bcf:option>
-    <bcf:option datatype="boolean">useforeword</bcf:option>
-    <bcf:option datatype="boolean">useholder</bcf:option>
-    <bcf:option datatype="boolean">useintroduction</bcf:option>
-    <bcf:option datatype="boolean">usenamea</bcf:option>
-    <bcf:option datatype="boolean">usenameb</bcf:option>
-    <bcf:option datatype="boolean">usenamec</bcf:option>
-    <bcf:option datatype="boolean">usetranslator</bcf:option>
-    <bcf:option datatype="boolean">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean">indexing</bcf:option>
-    <bcf:option datatype="boolean">labelnumber</bcf:option>
-    <bcf:option datatype="boolean">labelalpha</bcf:option>
-    <bcf:option datatype="boolean">labeltitle</bcf:option>
-    <bcf:option datatype="boolean">labeltitleyear</bcf:option>
-    <bcf:option datatype="boolean">labeldate</bcf:option>
-    <bcf:option datatype="boolean">labelyear</bcf:option>
-    <bcf:option datatype="boolean">uniquelist</bcf:option>
-    <bcf:option datatype="boolean">uniquename</bcf:option>
-    <bcf:option datatype="boolean">singletitle</bcf:option>
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="boolean">skipbib</bcf:option>
-    <bcf:option datatype="boolean">skiplos</bcf:option>
-    <bcf:option datatype="boolean">skipbiblist</bcf:option>
-    <bcf:option datatype="boolean">skiplab</bcf:option>
-    <bcf:option datatype="boolean">dataonly</bcf:option>
-    <bcf:option datatype="xml">labelalphatemplate</bcf:option>
-    <bcf:option datatype="xml">sortexclusion</bcf:option>
-    <bcf:option datatype="xml">labelnamespec</bcf:option>
-    <bcf:option datatype="xml">labeltitlespec</bcf:option>
-    <bcf:option datatype="xml">labeldatespec</bcf:option>
-    <bcf:option datatype="integer">maxnames</bcf:option>
-    <bcf:option datatype="integer">minnames</bcf:option>
-    <bcf:option datatype="integer">maxbibnames</bcf:option>
-    <bcf:option datatype="integer">minbibnames</bcf:option>
-    <bcf:option datatype="integer">maxcitenames</bcf:option>
-    <bcf:option datatype="integer">mincitenames</bcf:option>
-    <bcf:option datatype="integer">maxitems</bcf:option>
-    <bcf:option datatype="integer">minitems</bcf:option>
-    <bcf:option datatype="integer">maxalphanames</bcf:option>
-    <bcf:option datatype="integer">minalphanames</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="ENTRY">
-    <bcf:option datatype="boolean">useafterword</bcf:option>
-    <bcf:option datatype="boolean">useannotator</bcf:option>
-    <bcf:option datatype="boolean">useauthor</bcf:option>
-    <bcf:option datatype="boolean">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean">usecommentator</bcf:option>
-    <bcf:option datatype="boolean">useeditor</bcf:option>
-    <bcf:option datatype="boolean">useeditora</bcf:option>
-    <bcf:option datatype="boolean">useeditorb</bcf:option>
-    <bcf:option datatype="boolean">useeditorc</bcf:option>
-    <bcf:option datatype="boolean">useforeword</bcf:option>
-    <bcf:option datatype="boolean">useholder</bcf:option>
-    <bcf:option datatype="boolean">useintroduction</bcf:option>
-    <bcf:option datatype="boolean">usenamea</bcf:option>
-    <bcf:option datatype="boolean">usenameb</bcf:option>
-    <bcf:option datatype="boolean">usenamec</bcf:option>
-    <bcf:option datatype="boolean">usetranslator</bcf:option>
-    <bcf:option datatype="boolean">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean">indexing</bcf:option>
-    <bcf:option datatype="boolean">uniquelist</bcf:option>
-    <bcf:option datatype="boolean">uniquename</bcf:option>
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="boolean">skipbib</bcf:option>
-    <bcf:option datatype="boolean">skiplos</bcf:option>
-    <bcf:option datatype="boolean">skipbiblist</bcf:option>
-    <bcf:option datatype="boolean">skiplab</bcf:option>
-    <bcf:option datatype="boolean">dataonly</bcf:option>
-    <bcf:option datatype="string">sortnamekeyscheme</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="integer">maxnames</bcf:option>
-    <bcf:option datatype="integer">minnames</bcf:option>
-    <bcf:option datatype="integer">maxbibnames</bcf:option>
-    <bcf:option datatype="integer">minbibnames</bcf:option>
-    <bcf:option datatype="integer">maxcitenames</bcf:option>
-    <bcf:option datatype="integer">mincitenames</bcf:option>
-    <bcf:option datatype="integer">maxitems</bcf:option>
-    <bcf:option datatype="integer">minitems</bcf:option>
-    <bcf:option datatype="integer">maxalphanames</bcf:option>
-    <bcf:option datatype="integer">minalphanames</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="string">sortnamekeyscheme</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="NAME">
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="string">sortnamekeyscheme</bcf:option>
-=======
-=======
-  <!-- BIBLATEX OPTION SCOPE -->
-  <bcf:optionscope type="GLOBAL">
->>>>>>> 3314386212791b3ced4ebf4fae7c007af28e97b0
     <bcf:option>alphaothers</bcf:option>
     <bcf:option>sortalphaothers</bcf:option>
     <bcf:option>controlversion</bcf:option>
@@ -652,14 +415,7 @@
     <bcf:option>skipbiblist</bcf:option>
     <bcf:option>skiplab</bcf:option>
     <bcf:option>dataonly</bcf:option>
-<<<<<<< HEAD
->>>>>>> 99796c1be5a5a6bdd16fc4b418b587c7a49d6740
   </bcf:optionscope>
-=======
->>>>>>> 484242cc4554fe3f0e8ebc16cadb2588caf37d16
-=======
-  </bcf:optionscope>
->>>>>>> 3314386212791b3ced4ebf4fae7c007af28e97b0
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
     <bcf:maps datatype="bibtex" level="driver">
@@ -2489,19 +2245,7 @@
     <bcf:citekey order="7">nakashima_ohhelp:_2009</bcf:citekey>
     <bcf:citekey order="8">Ergun</bcf:citekey>
   </bcf:section>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
-=======
   <bcf:sortlist section="0" name="nyt" type="entry" sortscheme="nyt">
->>>>>>> 99796c1be5a5a6bdd16fc4b418b587c7a49d6740
-=======
-  <bcf:sortlist section="0" type="entry" label="nyt">
->>>>>>> 484242cc4554fe3f0e8ebc16cadb2588caf37d16
-=======
-  <bcf:sortlist section="0" name="nyt" type="entry" sortscheme="nyt">
->>>>>>> 3314386212791b3ced4ebf4fae7c007af28e97b0
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
